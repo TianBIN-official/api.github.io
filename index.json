@@ -1,7 +1,7 @@
 {
   "siteName": "天彬TianBIN | 框架设定",
-  "favicon": "https://example.com/favicon.ico",
-  "backgroundImage": "https://example.com/background.jpg",
+  "favicon": "https://www.tianbin.net/favicon.ico",
+  "backgroundImage": "https://api.tianbin.org/index.png",
   "sections": [
     {
       "name": "剧情支线",
