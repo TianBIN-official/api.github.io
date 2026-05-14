@@ -5,11 +5,11 @@
   "sections": [
     {
       "name": "框架设定",
-      "dataUrl": "https://api.tianbin.org/tianbin.json"
+      "dataUrl": "https://api.tianbin.org/api/tianbin.json"
     },
     {
       "name": "剧情委托",
-      "dataUrl": "https://api.tianbin.org/bintian.json"
+      "dataUrl": "https://api.tianbin.org/api/bintian.json"
     },
     {
       "name": "开发日志",
