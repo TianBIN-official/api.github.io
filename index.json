@@ -4,11 +4,11 @@
   "backgroundImage": "https://example.com/background.jpg",
   "sections": [
     {
-      "name": "框架设定",
+      "name": "剧情支线",
       "dataUrl": "https://api.tianbin.org/api/tianbin.json"
     },
     {
-      "name": "剧情委托",
+      "name": "框架设定",
       "dataUrl": "https://api.tianbin.org/api/bintian.json"
     },
     {
