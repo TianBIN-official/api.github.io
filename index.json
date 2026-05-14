@@ -4,12 +4,24 @@
   "backgroundImage": "https://api.tianbin.org/index.png",
   "sections": [
     {
-      "name": "剧情支线",
+      "name": "主线剧情",
       "dataUrl": "https://api.tianbin.org/api/tianbin.json"
+    },
+    {
+      "name": "支线剧情",
+      "dataUrl": "https://api.tianbin.org/api/tian.json"
+    },
+    {
+      "name": "隐藏剧情",
+      "dataUrl": "https://api.tianbin.org/api/bin.json"
     },
     {
       "name": "框架设定",
       "dataUrl": "https://api.tianbin.org/api/bintian.json"
+    },
+    {
+      "name": "天彬文学",
+      "dataUrl": "https://api.tianbin.org/txt/index.json"
     },
     {
       "name": "开发日志",
