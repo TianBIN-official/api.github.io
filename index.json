@@ -12,7 +12,7 @@
       "dataUrl": "https://api.tianbin.org/api/tian.json"
     },
     {
-      "name": "特殊剧情",
+      "name": "教程攻略",
       "dataUrl": "https://api.tianbin.org/api/bin.json"
     },
     {
