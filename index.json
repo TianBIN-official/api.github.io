@@ -4,15 +4,15 @@
   "backgroundImage": "https://api.tianbin.org/index.png",
   "sections": [
     {
-      "name": "主线剧情",
-      "dataUrl": "https://api.tianbin.org/api/tianbin.json"
-    },
-    {
-      "name": "框架设定",
+      "name": "框架设定【游戏×小说】",
       "dataUrl": "https://api.tianbin.org/api/bintian.json"
     },
     {
-      "name": "开发日志",
+      "name": "剧情大纲【参考蓝本】",
+      "dataUrl": "https://api.tianbin.org/api/tianbin.json"
+    },
+    {
+      "name": "开发日志【游戏开发】",
       "dataUrl": "https://api.tianbin.org/api/"
     }
   ]
