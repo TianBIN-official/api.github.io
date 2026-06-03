@@ -2,7 +2,7 @@
 name: 天彬TianBIN.org网络代理
 port: 7890
 allow-lan: true
-mode: Global
+mode: rule 
 log-level: info
 external-controller: ':9090'
 
