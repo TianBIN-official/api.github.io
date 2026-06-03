@@ -1,4 +1,5 @@
 # 天彬TianBIN网络代理
+name: 天彬TianBIN.org网络代理
 port: 7890
 allow-lan: true
 mode: Global
@@ -242,3 +243,16 @@ proxies:
     port: 1001
     password: '123'
     cipher: aes-256-gcm
+
+proxy-groups:
+  - name: "天彬TianBIN.org网络代理"
+    type: select
+    proxies:
+      - 法国 - 巴黎 - 1
+      - 法国 - 巴黎 - 2
+      - 法国 - 巴黎 - 3
+      - 法国 - 巴黎 - 4
+      - 法国 - 巴黎 - 5
+      - 法国 - 巴黎 - 6
+      - 中国 - 香港 - 1
+      - 中国 - 上海 - 2
