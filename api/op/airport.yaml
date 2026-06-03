@@ -1,4 +1,4 @@
-name: "天彬TianBIN.org网络代理"
+# 天彬TianBIN网络代理
 port: 7890
 allow-lan: true
 mode: Global
