@@ -5,7 +5,7 @@
   "sections": [
     {
       "name": "框架设定【游戏×小说】",
-      "dataUrl": "https://api.tianbin.org/json/"
+      "dataUrl": "https://api.tianbin.org/api/bintian.json"
     },
     {
       "name": "剧情大纲【参考蓝本】",
