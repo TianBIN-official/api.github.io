@@ -25,6 +25,8 @@ dns:
     ipcidr: [240.0.0.0/4]
     domain: [+.google.com, +.facebook.com, +.youtube.com]
 
+
+
 proxies:
   - name: 冰岛 - 雷克亞維克 - 1
     server: 155.117.198.87
@@ -275,6 +277,8 @@ proxy-groups:
       - 法国 - 巴黎 - 6
       - 中国 - 香港 - 1
       - 中国 - 上海 - 2
+
+
 
 rules:
     - 'IP-CIDR,1.1.1.1/32,天彬TianBIN.org网络代理'
