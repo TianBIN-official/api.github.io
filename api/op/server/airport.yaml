@@ -140,6 +140,54 @@ proxies:
     sni: gh.01.naiun.bilibili.com
     skip-cert-verify: true
     udp: true
+  - name: 罗马尼亚 - 布加勒斯特 - 1
+    server: 193.176.84.36
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1101
+  - name: 罗马尼亚 - Voluntari - 2
+    server: 84.239.49.201
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1121
+  - name: 罗马尼亚 - Voluntari - 3
+    server: 84.239.49.239
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1987
+  - name: 罗马尼亚 - Voluntari - 4
+    server: 84.239.49.185
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1160
+  - name: 罗马尼亚 - Voluntari - 5
+    server: 84.239.49.211
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1120
+  - name: 罗马尼亚 - Voluntari - 6
+    server: 84.239.49.154
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1101
   - name: 美国 - 洛杉矶 - 1
     server: 82.198.246.37
     port: 180
