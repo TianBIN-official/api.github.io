@@ -30,6 +30,19 @@ dns:
 # https://api.tianbin.org/api/op/server/airport.yaml
 ##############################
 proxies:
+  - name: 中国 - 上海 - 1
+    server: 61.171.92.202
+    type: ss
+    port: 1001
+    password: '123'
+    cipher: aes-256-gcm
+  - name: 中国 - 上海 - 2
+    server: 61.171.92.202
+    type: ss
+    port: 1001
+    password: '123'
+    cipher: aes-256-gcm
+    delay: 2133
   - name: 冰岛 - 雷克亞維克 - 1
     server: 155.117.198.87
     type: trojan
@@ -152,31 +165,20 @@ proxies:
     sni: ch.01.naiun.bilibili.com
     skip-cert-verify: true
     udp: true
-  - name: 中国 - 上海 - 1
-    server: 61.171.92.202
-    type: ss
-    port: 1001
-    password: '123'
-    cipher: aes-256-gcm
-  - name: 中国 - 上海 - 2
-    server: 61.171.92.202
-    type: ss
-    port: 1001
-    password: '123'
-    cipher: aes-256-gcm
-    delay: 2133
 
 proxy-groups:
   - name: "天彬TianBIN.org网络代理"
     type: select
     proxies:
-      - 中国 - 上海 - 1
-      - 中国 - 上海 - 2
+      - 美国 - 洛杉矶 - 1
+      - 德国 - 法兰克福 - 1
+      - 德国 - 法兰克福 - 2
       - 法国 - 巴黎 - 1
       - 法国 - 巴黎 - 2
       - 法国 - 巴黎 - 3
       - 法国 - 巴黎 - 4
-      - 美国 - 洛杉矶 - 1
+      - 中国 - 上海 - 1
+      - 中国 - 上海 - 2
 ##############################
 #   天彬TianBIN.org网络代理
 # 功能：国内直连解析，国外代理解析
