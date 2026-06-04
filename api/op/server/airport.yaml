@@ -1,5 +1,10 @@
 # 天彬TianBIN.org网络代理
 name: 天彬TianBIN.org网络代理
+##############################
+#   天彬TianBIN.org网络代理
+# https://api.tianbin.org/api
+# /op/server/airport.yaml
+##############################
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
@@ -25,12 +30,7 @@ dns:
     geosite: [gfw]
     ipcidr: [240.0.0.0/4]
     domain: [+.google.com, +.facebook.com, +.youtube.com]
-##############################
-#   天彬TianBIN.org网络代理
-# 功能：国内直连解析，国外代理解析
-# 原理：nameserver fallback
-# https://api.tianbin.org/api/op/server/airport.yaml
-##############################
+
 proxies:
   - name: 中国 - 上海 - 1
     server: 61.171.92.202
@@ -45,199 +45,14 @@ proxies:
     password: '123'
     cipher: aes-256-gcm
     delay: 2133
-  - name: 冰岛 - 雷克亞維克 - 1
-    server: 155.117.198.87
-    type: trojan
-    port: 47909
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 德国 - 法兰克福 - 1
-    server: 155.117.198.86
-    type: trojan
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 德国 - 法兰克福 - 2
-    server: 155.117.198.83
-    type: trojan
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 德国 - 法兰克福 - 3
-    server: 155.117.198.82
-    type: trojan
-    port: 46424
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 法国 - 巴黎 - 1
-    server: 90081bb25c.node.tro.cac.cab
-    type: trojan
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    udp: true
-  - name: 法国 - 巴黎 - 2
-    server: 155.117.198.86
-    type: trojan
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    udp: true
-  - name: 法国 - 巴黎 - 3
-    server: 155.117.198.83
-    type: trojan
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 法国 - 巴黎 - 4
-    server: 155.117.198.87
-    type: trojan
-    port: 45619
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
-    skip-cert-verify: true
-    udp: true
-  - name: 加纳 - 阿克拉 - 1
-    server: 90081bb25c.node.tro.cac.cab
-    type: trojan
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    udp: true
-  - name: 加纳 - 阿克拉 - 2
-    server: 155.117.198.87
-    type: trojan
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 加纳 - 阿克拉 - 3
-    server: 155.117.198.83
-    type: trojan
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 加纳 - 阿克拉 - 4
-    server: 155.117.198.86
-    type: trojan
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    udp: true
-  - name: 加纳 - 阿克拉 - 5
-    server: 155.117.198.82
-    type: trojan
-    port: 48697
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: gh.01.naiun.bilibili.com
-    skip-cert-verify: true
-    udp: true
-  - name: 罗马尼亚 - 布加勒斯特 - 1
-    server: 193.176.84.36
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1101
-  - name: 罗马尼亚 - Voluntari - 2
-    server: 84.239.49.201
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1121
-  - name: 罗马尼亚 - Voluntari - 3
-    server: 84.239.49.239
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1987
-  - name: 罗马尼亚 - Voluntari - 4
-    server: 84.239.49.185
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1160
-  - name: 罗马尼亚 - Voluntari - 5
-    server: 84.239.49.211
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1120
-  - name: 罗马尼亚 - Voluntari - 6
-    server: 84.239.49.154
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1101
-  - name: 美国 - 洛杉矶 - 1
-    server: 82.198.246.37
-    port: 180
-    type: vmess
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 瑞士 - 苏黎世 - 1
-    server: 155.117.198.83
-    type: trojan
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-  - name: 瑞士 - 苏黎世 - 2
-    server: 155.117.198.87
-    type: trojan
-    port: 45553
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
-    skip-cert-verify: true
-    udp: true
 
 proxy-groups:
   - name: "天彬TianBIN.org网络代理"
     type: select
     proxies:
-      - 法国 - 巴黎 - 1
-      - 法国 - 巴黎 - 2
-      - 法国 - 巴黎 - 3
-      - 法国 - 巴黎 - 4
-      - 美国 - 洛杉矶 - 1
-      - 德国 - 法兰克福 - 1
-      - 德国 - 法兰克福 - 2
-  - name: "天彬TianBIN"
-    type: select
-    proxies:
       - 中国 - 上海 - 1
       - 中国 - 上海 - 2
-##############################
-#   天彬TianBIN.org网络代理
-# 功能：国内直连解析，国外代理解析
-# 原理：nameserver fallback
-# https://api.tianbin.org/api/op/server/airport.yaml
-##############################
+
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,天彬TianBIN.org网络代理
   - DOMAIN-SUFFIX,ip6-localhost,天彬TianBIN.org网络代理
