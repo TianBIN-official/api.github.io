@@ -57,31 +57,6 @@ proxies:
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
     sni: de.01.naiun.bilibili.com
     skip-cert-verify: true
-  - name: 德国 - 陶努斯山麓巴德索登 - 4
-    server: 185.129.84.12
-    type: ss
-    port: 443
-    password: DQHK4mtugy7xMNChJjB9Jm
-    cipher: chacha20-ietf-poly1305
-  - name: 德国 - Frankfurt am Main - 5
-    server: 3.66.185.190
-    type: trojan
-    port: 22223
-    password: telegram-id-directvpn
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: true
-    udp: true
-  - name: 德国 - 兰河畔林堡 - 6
-    server: 51.195.91.135
-    type: vmess
-    port: 10000
-    uuid: 533ae32c-5dda-11f1-a6eb-23a176880b5a
-    alterId: 0
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
-    ws-opts:
-      path: /vpnjantit
   - name: 法国 - 巴黎 - 1
     server: 90081bb25c.node.tro.cac.cab
     type: trojan
@@ -113,25 +88,6 @@ proxies:
     sni: fr.01.naiun.bilibili.com
     skip-cert-verify: true
     udp: true
-  - name: 法国 - 巴黎 - 5
-    server: 15.237.22.206
-    type: trojan
-    port: 22223
-    udp: true
-    password: telegram-id-directvpn
-    skip-cert-verify: true
-  - name: 法国 - 巴黎 - 6
-    server: 45.92.218.56
-    type: ss
-    port: 1080
-    password: RjG_Pd534ZVJRMdODjCNMA
-    cipher: chacha20-ietf-poly1305
-  - name: 芬兰 - 赫尔辛基 - 1
-    server: 109.107.182.229
-    type: ss
-    port: 51544
-    password: NMao3laQtxBnEgzbuJ0khb
-    cipher: chacha20-ietf-poly1305
   - name: 加纳 - 阿克拉 - 1
     server: 90081bb25c.node.tro.cac.cab
     type: trojan
@@ -180,48 +136,6 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: 美国 - 洛杉矶 - 2
-    server: 95.40.4.37
-    port: 2520
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-    udp: true
-  - name: 美国 - 坦帕 - 3
-    server: 95.40.68.192
-    port: 17801
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-    udp: true
-  - name: 美国 - 達拉斯 - 4
-    server: 107.175.91.118
-    type: vmess
-    port: 443
-    uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /v2ray-wisp
-  - name: 美国 - 洛杉矶 - 5
-    server: select-us.ddnskunlun.com
-    type: vmess
-    port: 9028
-    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-    alterId: 0
-    cipher: auto
-    skip-cert-verify: true
-  - name: 日本 - 东京 - 1
-    server: ss.021.node-for-bigairport.win
-    type: ss
-    port: 19287
-    password: 6c4bd474-ac23-47fc-8742-c8f990357836
-    cipher: aes-256-gcm
   - name: 瑞士 - 苏黎世 - 1
     server: 155.117.198.83
     type: trojan
@@ -237,50 +151,37 @@ proxies:
     sni: ch.01.naiun.bilibili.com
     skip-cert-verify: true
     udp: true
-  - name: 土耳其 - 伊斯坦布尔 - 1
-    server: tr-1.stunnel.cc
-    type: trojan
-    port: 8441
-    password: tunnel-jdybi
-    sni: creativecommons.org
-    skip-cert-verify: true
-    udp: true
-  - name: 西班牙 - 马德里 - 1
-    server: 5.188.181.201
+  - name: 中国 - 上海 - 1
+    server: 61.171.92.202
     type: ss
-    port: 9025
-    password: XPtzA9sCug3SPR4c
-    cipher: aes-256-cfb
-  - name: 中国 - 香港 - 1
-    server: 18.183.163.141
-    port: 50712
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-    udp: true
+    port: 1001
+    password: '123'
+    cipher: aes-256-gcm
   - name: 中国 - 上海 - 2
     server: 61.171.92.202
     type: ss
     port: 1001
     password: '123'
     cipher: aes-256-gcm
+    delay: 2133
 
 proxy-groups:
   - name: "天彬TianBIN.org网络代理"
     type: select
     proxies:
+      - 美国 - 洛杉矶 - 1
       - 法国 - 巴黎 - 1
       - 法国 - 巴黎 - 2
       - 法国 - 巴黎 - 3
       - 法国 - 巴黎 - 4
-      - 法国 - 巴黎 - 5
-      - 法国 - 巴黎 - 6
-      - 中国 - 香港 - 1
+      - 中国 - 上海 - 1
       - 中国 - 上海 - 2
-
-
-
+##############################
+#   天彬TianBIN.org网络代理
+# 功能：智能 DNS 分流，国内域名直连解析，国外域名代理解析
+# 原理：nameserver 处理国内站点，fallback 处理被墙站点
+# https://api.tianbin.org/api/op/server/airport.yaml
+##############################
 rules:
     - 'IP-CIDR,1.1.1.1/32,天彬TianBIN.org网络代理'
     - 'IP-CIDR,8.8.8.8/32,天彬TianBIN.org网络代理'
