@@ -2,9 +2,8 @@
 name: 天彬TianBIN.org-VPN线路
 ##############################
 #   天彬TianBIN.org-VPN线路
-# 功能：加密传输，突破网络限制
-# 原理：加密隧道，中转请求
-# https://api.tianbin.org/api/op/server/vpn.yaml
+# https://api.tianbin.org/
+# api/op/server/vpn.yaml
 ##############################
 port: 7890
 allow-lan: true
