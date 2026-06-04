@@ -5,9 +5,12 @@ allow-lan: true
 mode: Global
 log-level: info
 external-controller: ':9090'
-
-
-
+###############################################################################
+#                             天彬TianBIN.org-VPN线路
+# 功能：加密传输，突破网络限制
+# 原理：加密隧道，中转请求
+# https://api.tianbin.org/api/op/server/vpn.yaml
+###############################################################################
 proxies:
   - name: 法国 - 巴黎 - 1
     server: 155.117.198.87
