@@ -14,6 +14,10 @@
     {
       "name": "开发日志【游戏开发】",
       "dataUrl": "https://api.tianbin.org/api/"
+    },
+    {
+      "name": "天彬文学学刊•̀֊•́",
+      "dataUrl": "https://api.tianbin.org/api/tianbin.json"
     }
   ]
 }
