@@ -227,7 +227,7 @@ proxy-groups:
       - 美国 - 洛杉矶 - 1
       - 德国 - 法兰克福 - 1
       - 德国 - 法兰克福 - 2
-  - name: 天彬TianBIN
+  - name: "天彬TianBIN"
     type: select
     proxies:
       - 中国 - 上海 - 1
