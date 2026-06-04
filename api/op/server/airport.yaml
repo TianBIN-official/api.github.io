@@ -24,8 +24,8 @@ dns:
     domain: [+.google.com, +.facebook.com, +.youtube.com]
 ##############################
 #   天彬TianBIN.org网络代理
-# 功能：智能 DNS 分流，国内域名直连解析，国外域名代理解析
-# 原理：nameserver 处理国内站点，fallback 处理被墙站点
+# 功能：国内直连解析，国外代理解析
+# 原理：nameserver fallback
 # https://api.tianbin.org/api/op/server/airport.yaml
 ##############################
 proxies:
@@ -169,17 +169,17 @@ proxy-groups:
   - name: "天彬TianBIN.org网络代理"
     type: select
     proxies:
-      - 美国 - 洛杉矶 - 1
+      - 中国 - 上海 - 1
+      - 中国 - 上海 - 2
       - 法国 - 巴黎 - 1
       - 法国 - 巴黎 - 2
       - 法国 - 巴黎 - 3
       - 法国 - 巴黎 - 4
-      - 中国 - 上海 - 1
-      - 中国 - 上海 - 2
+      - 美国 - 洛杉矶 - 1
 ##############################
 #   天彬TianBIN.org网络代理
-# 功能：智能 DNS 分流，国内域名直连解析，国外域名代理解析
-# 原理：nameserver 处理国内站点，fallback 处理被墙站点
+# 功能：国内直连解析，国外代理解析
+# 原理：nameserver fallback
 # https://api.tianbin.org/api/op/server/airport.yaml
 ##############################
 rules:
