@@ -5,6 +5,9 @@ allow-lan: true
 mode: Global
 log-level: info
 external-controller: ':9090'
+
+
+
 proxies:
   - name: 法国 - 巴黎 - 1
     server: 155.117.198.87
