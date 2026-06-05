@@ -34,26 +34,6 @@ proxies:
     port: 1001
     password: '123'
     cipher: aes-256-gcm
-  - name: 中国 - 香港 - 1
-    server: b21cad55-t9zts0-tiaexf-ufc0.cm4.oshuawei.com
-    port: 5228
-    type: http
-    username: 22308988-8548-11ea-a22e-f23c91cfbbc9
-    password: 22308988-8548-11ea-a22e-f23c91cfbbc9
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1891
-  - name: 中国 - 香港 - 2
-    server: 1d603f3e-t9zts0-tc9wl2-py5w.cm4.oshuawei.com
-    port: 5228
-    type: http
-    username: ae5338ae-9a70-58c9-3d47-7d54a5675715
-    password: ae5338ae-9a70-58c9-3d47-7d54a5675715
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 812
   - name: 德国 - 法兰克福 - 1
     server: 155.117.198.86
     type: trojan
@@ -131,21 +111,6 @@ proxies:
     cipher: aes-256-cfb
     delay: 589
   - name: 加拿大 - 多伦多 - 1
-    server: 3.96.152.83
-    type: ss
-    port: 443
-    password: amazonskr05
-    cipher: aes-256-cfb
-    delay: 543
-  - name: 俄罗斯 - 圣彼得堡 - 1
-    server: 195.58.49.162
-    type: ss
-    country: 🇨🇿CZ
-    port: 60120
-    password: 9f3d1a6d31468599
-    cipher: aes-256-gcm
-    delay: 552
-  - name: 加拿大 - 多伦多 - 2
     server: 52.60.99.199
     type: ss
     port: 443
@@ -277,9 +242,7 @@ proxy-groups:
       - 韩国 - 水原市 - 1
       - 韩国 - Geumcheon-gu - 1
       - 韩国 - Geumcheon-gu - 2
-      - 俄罗斯 - 圣彼得堡 - 1
       - 加拿大 - 多伦多 - 1
-      - 加拿大 - 多伦多 - 2
       - 冰岛 - 雷克亞維克 - 1
       - 加纳 - 阿克拉 - 1
       - 加纳 - 阿克拉 - 2
@@ -298,8 +261,6 @@ proxy-groups:
     type: select
     proxies:
       - 中国 - 上海 - 1
-      - 中国 - 香港 - 1
-      - 中国 - 香港 - 2
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
