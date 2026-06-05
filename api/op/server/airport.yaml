@@ -86,16 +86,28 @@ proxies:
     sni: fr.01.naiun.bilibili.com
     skip-cert-verify: true
     udp: true
-  - name: 美国 - 洛杉矶 - 1
-    server: 82.198.246.37
-    port: 180
-    type: vmess
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: 韩国 - 水原市 - 1
+    server: 121.169.46.116
+    port: 1090
+    type: socks5
+    username: T2clM0QlM0Q6
     skip-cert-verify: true
     udp: true
+    delay: 513
+  - name: 加拿大 - 多伦多 - 1
+    server: 3.96.152.83
+    type: ss
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 543
+  - name: 加拿大 - 多伦多 - 2
+    server: 52.60.99.199
+    type: ss
+    port: 443
+    password: amazonskr05
+    cipher: aes-256-cfb
+    delay: 566
   - name: 冰岛 - 雷克亞維克 - 1
     server: 155.117.198.87
     type: trojan
@@ -238,7 +250,10 @@ proxy-groups:
       - 法国 - 巴黎 - 2
       - 法国 - 巴黎 - 3
       - 法国 - 巴黎 - 4
-      - 美国 - 洛杉矶 - 1
+      - 韩国 - 水原市 - 1
+      - 加拿大 - 多伦多 - 1
+      - 加拿大 - 多伦多 - 2
+      - 冰岛 - 雷克亞維克 - 1
       - 加纳 - 阿克拉 - 1
       - 加纳 - 阿克拉 - 2
       - 加纳 - 阿克拉 - 3
@@ -250,6 +265,8 @@ proxy-groups:
       - 罗马尼亚 - Voluntari - 4
       - 罗马尼亚 - Voluntari - 5
       - 罗马尼亚 - Voluntari - 6
+      - 瑞士 - 苏黎世 - 1
+      - 瑞士 - 苏黎世 - 2
   - name: "天彬TianBIN"
     type: select
     proxies:
