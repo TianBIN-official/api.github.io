@@ -25,7 +25,7 @@ dns:
     geoip-code: CN
     geosite: [gfw]
     ipcidr: [240.0.0.0/4]
-    domain: [+.google.com, +.facebook.com, +.youtube.com, +.github.com, +.github.io, +.steampowered.com, +.steamcommunity.com, +.steamgames.com, +.steamusercontent.com, +.steamcontent.com, +.steamstatic.com, +.gstatic.com, +.googlevideo.com, +.ytimg.com]
+    domain: [+.google.com, +.googlevideo.com, +.facebook.com, +.instagram.com, +.cdninstagram.com, +.youtube.com, +.ytimg.com, +.github.com, +.github.io]
 
 proxies:
   - name: 中国 - 上海 - 1
