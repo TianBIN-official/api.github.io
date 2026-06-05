@@ -243,12 +243,18 @@ proxy-groups:
       - 加纳 - 阿克拉 - 3
       - 加纳 - 阿克拉 - 4
       - 加纳 - 阿克拉 - 5
-      - 新加坡 - 1
-      - 新加坡 - 2
+      - 罗马尼亚 - 布加勒斯特 - 1
+      - 罗马尼亚 - Voluntari - 2
+      - 罗马尼亚 - Voluntari - 3
+      - 罗马尼亚 - Voluntari - 4
+      - 罗马尼亚 - Voluntari - 5
+      - 罗马尼亚 - Voluntari - 6
   - name: "天彬TianBIN"
     type: select
     proxies:
       - 中国 - 上海 - 1
+      - 新加坡 - 1
+      - 新加坡 - 2
 ##############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/api/
