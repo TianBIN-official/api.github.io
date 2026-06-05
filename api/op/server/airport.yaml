@@ -1460,6 +1460,8 @@ rules:
   - DOMAIN-SUFFIX,zhuihd.com,天彬TianBIN.org网络代理
   - DOMAIN-SUFFIX,cmbchina.com,天彬TianBIN.org网络代理
   - DOMAIN-SUFFIX,95516.com,天彬TianBIN.org网络代理
+  - DOMAIN-SUFFIX,adobe.io,REJECT
+  - DOMAIN-SUFFIX,adobestats.io,REJECT
   - IP-CIDR,8.128.0.0/10,天彬TianBIN.org网络代理,no-resolve
   - IP-CIDR,8.209.32.0/22,天彬TianBIN.org网络代理,no-resolve
   - IP-CIDR,8.209.40.0/21,天彬TianBIN.org网络代理,no-resolve
