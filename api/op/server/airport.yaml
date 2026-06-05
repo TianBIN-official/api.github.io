@@ -203,6 +203,26 @@ proxies:
     sni: ch.01.naiun.bilibili.com
     skip-cert-verify: true
     udp: true
+  - name: 新加坡 - 1
+    server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
+    port: 3233
+    type: http
+    username: 16955d72-1794-11f0-a035-f23c95b6f51d
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1459
+  - name: 新加坡 - 2
+    server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+    port: 3233
+    type: http
+    username: 1b609740-eec2-11ef-8543-f23c93136cb3
+    password: 1b609740-eec2-11ef-8543-f23c93136cb3
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1162
 
 proxy-groups:
   - name: "天彬TianBIN.org网络代理"
@@ -223,6 +243,8 @@ proxy-groups:
       - 加纳 - 阿克拉 - 3
       - 加纳 - 阿克拉 - 4
       - 加纳 - 阿克拉 - 5
+      - 新加坡 - 1
+      - 新加坡 - 2
   - name: "天彬TianBIN"
     type: select
     proxies:
