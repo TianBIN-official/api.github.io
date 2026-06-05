@@ -1,9 +1,9 @@
 # 天彬TianBIN.org-VPN线路
 name: 天彬TianBIN.org-VPN线路
 ##############################
-#   天彬TianBIN.org-VPN线路
+#   本代理是测试节点，请移步至
 # https://api.tianbin.org/
-# api/op/server/vpn.yaml
+# api/op/server/airport.yaml
 ##############################
 port: 7890
 allow-lan: true
