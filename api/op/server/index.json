@@ -1,15 +1,3 @@
-##############################
-#   天彬TianBIN.org网络代理
-# 功能：国内直连解析，国外代理解析
-# 原理：nameserver fallback
-# https://api.tianbin.org/api/op/server/airport.yaml
-##############################
 https://api.tianbin.org/api/op/server/airport.yaml
 
-##############################
-#   天彬TianBIN.org-VPN线路
-# 功能：加密传输，突破网络限制
-# 原理：加密隧道，中转请求
-# https://api.tianbin.org/api/op/server/vpn.yaml
-##############################
 https://api.tianbin.org/api/op/server/vpn.yaml
