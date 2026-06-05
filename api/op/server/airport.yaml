@@ -6,6 +6,7 @@ bind-address: '*'
 mode: rule
 log-level: warning
 external-controller: '127.0.0.1:9090'
+unified-delay: true
 global-client-fingerprint: chrome
 keep-alive-interval: 360
 dns:
