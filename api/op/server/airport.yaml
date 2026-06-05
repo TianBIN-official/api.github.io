@@ -258,8 +258,8 @@ proxy-groups:
       - 新加坡 - 2
 ##############################
 #   天彬TianBIN.org网络代理
-# https://api.tianbin.org/api/
-# op/server/airport.yaml
+# https://api.tianbin.org/
+# api/op/server/airport.yaml
 ##############################
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,天彬TianBIN.org网络代理
