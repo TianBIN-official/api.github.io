@@ -8,7 +8,6 @@ log-level: warning
 external-controller: '127.0.0.1:9090'
 global-client-fingerprint: chrome
 keep-alive-interval: 360
-
 dns:
   enable: true
   ipv6: false
@@ -25,8 +24,8 @@ dns:
     geoip-code: CN
     geosite: [gfw]
     ipcidr: [240.0.0.0/4]
-    domain: [+.google.com, +.facebook.com, +.youtube.com]
-    
+    domain: [+.google.com, +.facebook.com, +.youtube.com, +.github.com, +.github.io]
+
 proxies:
   - name: 中国 - 上海 - 1
     server: 61.171.92.202
@@ -34,13 +33,6 @@ proxies:
     port: 1001
     password: '123'
     cipher: aes-256-gcm
-  - name: 中国 - 上海 - 2
-    server: 61.171.92.202
-    type: ss
-    port: 1001
-    password: '123'
-    cipher: aes-256-gcm
-    delay: 2133
   - name: 冰岛 - 雷克亞維克 - 1
     server: 155.117.198.87
     type: trojan
@@ -229,7 +221,6 @@ proxy-groups:
     type: select
     proxies:
       - 中国 - 上海 - 1
-      - 中国 - 上海 - 2
 ##############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/api/
