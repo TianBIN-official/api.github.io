@@ -25,7 +25,7 @@ dns:
     geoip-code: CN
     geosite: [gfw]
     ipcidr: [240.0.0.0/4]
-    domain: [+.google.com, +.googlevideo.com, +.facebook.com, +.instagram.com, +.cdninstagram.com, +.youtube.com, +.ytimg.com, +.github.com, +.github.io, +.googleapis.com, +.githubusercontent.com]
+    domain: [+.google.com, +.googlevideo.com, +.facebook.com, +.instagram.com, +.cdninstagram.com, +.youtube.com, +.ytimg.com, +.github.com, +.github.io, +.googleapis.com, +.githubusercontent.com, +.tiktokv.com, +.tiktokv.com]
 
 proxies:
   - name: 中国 - 上海 - 1
