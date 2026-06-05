@@ -34,6 +34,56 @@ proxies:
     port: 1001
     password: '123'
     cipher: aes-256-gcm
+  - name: 中国 - 香港 - 1
+    server: 9ae34110-t9zts0-tb592v-4lg6.cm4.oshuawei.com
+    port: 5228
+    type: http
+    username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+    password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 2008
+  - name: 中国 - 香港 - 2
+    server: 19b7ea9d-t9zts0-tbnk1n-ueq.cm4.oshuawei.com
+    port: 5228
+    type: http
+    username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1672
+  - name: 中国 - 香港 - 3
+    server: b21cad55-t9zts0-tiaexf-ufc0.cm4.oshuawei.com
+    port: 5228
+    type: http
+    username: 22308988-8548-11ea-a22e-f23c91cfbbc9
+    password: 22308988-8548-11ea-a22e-f23c91cfbbc9
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1891
+  - name: 中国 - 香港 - 4
+    server: 1d603f3e-t9zts0-tc9wl2-py5w.cm4.oshuawei.com
+    port: 5228
+    type: http
+    username: ae5338ae-9a70-58c9-3d47-7d54a5675715
+    password: ae5338ae-9a70-58c9-3d47-7d54a5675715
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 812
+  - name: 中国 - 香港 - 5
+    server: c4c796bb-t9zts0-tlpfci-1jdha.cm4.oshuawei.com
+    port: 5228
+    type: http
+    username: de629d50-1711-11ed-bd7c-f23c913c8d2b
+    password: de629d50-1711-11ed-bd7c-f23c913c8d2b
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 664
   - name: 德国 - 法兰克福 - 1
     server: 155.117.198.86
     type: trojan
@@ -271,6 +321,11 @@ proxy-groups:
     type: select
     proxies:
       - 中国 - 上海 - 1
+      - 中国 - 香港 - 1
+      - 中国 - 香港 - 2
+      - 中国 - 香港 - 3
+      - 中国 - 香港 - 4
+      - 中国 - 香港 - 5
       - 新加坡 - 1
       - 新加坡 - 2
 ##############################
