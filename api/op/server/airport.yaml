@@ -35,26 +35,6 @@ proxies:
     password: '123'
     cipher: aes-256-gcm
   - name: 中国 - 香港 - 1
-    server: 9ae34110-t9zts0-tb592v-4lg6.cm4.oshuawei.com
-    port: 5228
-    type: http
-    username: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-    password: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 2008
-  - name: 中国 - 香港 - 2
-    server: 19b7ea9d-t9zts0-tbnk1n-ueq.cm4.oshuawei.com
-    port: 5228
-    type: http
-    username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-    password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1672
-  - name: 中国 - 香港 - 3
     server: b21cad55-t9zts0-tiaexf-ufc0.cm4.oshuawei.com
     port: 5228
     type: http
@@ -64,7 +44,7 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 1891
-  - name: 中国 - 香港 - 4
+  - name: 中国 - 香港 - 2
     server: 1d603f3e-t9zts0-tc9wl2-py5w.cm4.oshuawei.com
     port: 5228
     type: http
@@ -74,16 +54,6 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 812
-  - name: 中国 - 香港 - 5
-    server: c4c796bb-t9zts0-tlpfci-1jdha.cm4.oshuawei.com
-    port: 5228
-    type: http
-    username: de629d50-1711-11ed-bd7c-f23c913c8d2b
-    password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 664
   - name: 德国 - 法兰克福 - 1
     server: 155.117.198.86
     type: trojan
@@ -290,26 +260,6 @@ proxies:
     sni: ch.01.naiun.bilibili.com
     skip-cert-verify: true
     udp: true
-  - name: 新加坡 - 1
-    server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-    port: 3233
-    type: http
-    username: 16955d72-1794-11f0-a035-f23c95b6f51d
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1459
-  - name: 新加坡 - 2
-    server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-    port: 3233
-    type: http
-    username: 1b609740-eec2-11ef-8543-f23c93136cb3
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1162
 
 proxy-groups:
   - name: "天彬TianBIN.org网络代理"
@@ -350,16 +300,11 @@ proxy-groups:
       - 中国 - 上海 - 1
       - 中国 - 香港 - 1
       - 中国 - 香港 - 2
-      - 中国 - 香港 - 3
-      - 中国 - 香港 - 4
-      - 中国 - 香港 - 5
-      - 新加坡 - 1
-      - 新加坡 - 2
-##############################
+#############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
 # api/op/server/airport.yaml
-##############################
+#############################
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,天彬TianBIN.org网络代理
   - DOMAIN-SUFFIX,ip6-localhost,天彬TianBIN.org网络代理
