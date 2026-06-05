@@ -28,7 +28,7 @@ dns:
     domain: [+.google.com, +.microsoft.com, +.googleapis.com, +.googlevideo.com, +.youtube.com, +.ytimg.com, +.github.com, +.github.io, +.githubusercontent.com, +.facebook.com, +.fbsbx.com, +.live.com, +.instagram.com, +.telegram.org, +.tiktokv.com, +.twitter.com, +.x.com, +.pixiv.net, +.cdninstagram.com, +.tiktokcdn.com, +.twimg.com, +.t.me, +.pximg.net]
 
 proxies:
-  - name: 中国 - 上海 - 1
+  - name: 中国-上海电信[001]
     server: 61.171.92.202
     type: ss
     port: 1001
@@ -260,7 +260,7 @@ proxy-groups:
   - name: "天彬TianBIN"
     type: select
     proxies:
-      - 中国 - 上海 - 1
+      - 中国-上海电信[001]
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
