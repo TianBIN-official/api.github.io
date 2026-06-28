@@ -10,10 +10,6 @@
     {
       "name": "文天游 | 公告资讯",
       "dataUrl": "https://api.tianbin.org/api/wentianyo.json"
-    },
-    {
-      "name": "天彬文学学刊•̀֊•́",
-      "dataUrl": "https://api.tianbin.org/api/txt.json"
     }
   ]
 }
