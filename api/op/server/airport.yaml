@@ -28,12 +28,6 @@ dns:
     domain: [+.google.com, +.microsoft.com, +.googleapis.com, +.googlevideo.com, +.youtube.com, +.ytimg.com, +.github.com, +.github.io, +.githubusercontent.com, +.facebook.com, +.fbsbx.com, +.live.com, +.instagram.com, +.telegram.org, +.tiktokv.com, +.twitter.com, +.x.com, +.pixiv.net, +.cdninstagram.com, +.tiktokcdn.com, +.twimg.com, +.t.me, +.pximg.net]
 
 proxies:
-  - name: 中国-上海电信[001]
-    server: 61.171.92.202
-    type: ss
-    port: 1001
-    password: '123'
-    cipher: aes-256-gcm
   - name: 荷兰 - 阿姆斯特丹 - 1
     server: 114.80.8.128
     port: 39001
@@ -43,18 +37,161 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 845
-
+  - name: 罗马尼亚 - 布加勒斯特 - 1
+    server: 193.176.84.31
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1090
+  - name: 罗马尼亚 - 布加勒斯特 - 2
+    server: 193.176.84.37
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1848
+  - name: 罗马尼亚 - 布加勒斯特 - 3
+    server: 193.176.84.32
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1395
+  - name: 罗马尼亚 - Voluntari - 4
+    server: 84.239.49.187
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1075
+  - name: 罗马尼亚 - Voluntari - 5
+    server: 84.239.49.196
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1844
+  - name: 罗马尼亚 - Voluntari - 6
+    server: 84.239.49.204
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1129
+  - name: 罗马尼亚 - Voluntari - 7
+    server: 84.239.49.57
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1869
+  - name: 罗马尼亚 - Voluntari - 8
+    server: 84.239.49.185
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1104
+  - name: 罗马尼亚 - Voluntari - 9
+    server: 84.239.49.159
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 2236
+  - name: 罗马尼亚 - Voluntari - 10
+    server: 84.239.49.247
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 2529
+  - name: 罗马尼亚 - Voluntari - 11
+    server: 84.239.49.219
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1166
+  - name: 罗马尼亚 - Voluntari - 12
+    server: 84.239.49.202
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1112
+  - name: 罗马尼亚 - Voluntari - 13
+    server: 84.239.49.211
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1122
+  - name: 罗马尼亚 - Voluntari - 14
+    server: 84.239.14.160
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1750
+  - name: 罗马尼亚 - Voluntari - 15
+    server: 84.239.49.209
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1866
+  - name: 罗马尼亚 - Voluntari - 16
+    server: 84.239.49.235
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    udp: true
+    delay: 1149
+    
 proxy-groups:
   - name: "天彬TianBIN.org网络代理"
     type: select
     proxies:
-      -  DIRECT
       - 天彬TianBIN
       - 荷兰 - 阿姆斯特丹 - 1
+      - 罗马尼亚 - 布加勒斯特 - 1
+      - 罗马尼亚 - 布加勒斯特 - 2
+      - 罗马尼亚 - 布加勒斯特 - 3
+      - 罗马尼亚 - Voluntari - 4
+      - 罗马尼亚 - Voluntari - 5
+      - 罗马尼亚 - Voluntari - 6
+      - 罗马尼亚 - Voluntari - 7
+      - 罗马尼亚 - Voluntari - 8
+      - 罗马尼亚 - Voluntari - 9
+      - 罗马尼亚 - Voluntari - 10
+      - 罗马尼亚 - Voluntari - 11
+      - 罗马尼亚 - Voluntari - 12
+      - 罗马尼亚 - Voluntari - 13
+      - 罗马尼亚 - Voluntari - 14
+      - 罗马尼亚 - Voluntari - 15
+      - 罗马尼亚 - Voluntari - 16
   - name: "天彬TianBIN"
     type: select
     proxies:
-      - 中国-上海电信[001]
+      - DIRECT
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
