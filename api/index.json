@@ -1,14 +1,21 @@
-[
-  {
-    "title": "2604W1",
-    "date": "2026-04-01",
-    "author": "苏天彬",
-    "content": "。"
-  },
-  {
-    "title": "2603W1",
-    "date": "2026-03-01",
-    "author": "苏天彬",
-    "content": "。"
-  }
-]
+{
+  "siteName": "天彬TianBIN",
+  "favicon": "https://api.tianbin.org/index.png",
+  "sections": [
+    {
+      "id": "tianbin",
+      "name": "框架设定",
+      "icon": "📚"
+    },
+    {
+      "id": "play",
+      "name": "玩法攻略",
+      "icon": "🎮"
+    },
+    {
+      "id": "yo",
+      "name": "角色册籍",
+      "icon": "👤"
+    }
+  ]
+}
