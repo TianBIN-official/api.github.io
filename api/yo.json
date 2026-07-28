@@ -1,0 +1,21 @@
+[
+  {
+    "title": "观测者零号",
+    "date": "2026-05-12",
+    "author": "OC-001",
+    "content": "身份不明的特殊个体。\n拥有干涉现实的能力。\n\thttps://picsum.photos/800/600?4\n性格冷漠，似乎在寻找什么。\n与多个重大事件有关联。",
+    "imgs": [
+      "https://picsum.photos/800/600?y1"
+    ]
+  },
+  {
+    "title": "守门人艾伦",
+    "date": "2026-06-18",
+    "author": "OC-002",
+    "content": "负责界域通道的守卫。\n忠诚可靠，战技精湛。\n\thttps://picsum.photos/800/600?5\n对入侵者毫不留情。\n偶尔会透露一些古老秘密。",
+    "imgs": [
+      "https://picsum.photos/800/600?y2",
+      "https://picsum.photos/800/600?y3"
+    ]
+  }
+]
