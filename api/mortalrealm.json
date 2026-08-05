@@ -1,5 +1,6 @@
 {
   "siteName": "天彬TianBIN | 框架设定·凡界",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
     { "id": "mortalrealm_character", "name": "人物", "icon": "🎖", "type": "yo" },
     { "id": "mortalrealm_country", "name": "国家", "icon": "🏛", "type": "yo" },
