@@ -13,7 +13,7 @@
     "date": "2026-08-03",
     "author": "<a href=\"https://wentianyou.com\">公告资讯</a>",
     "content": "2026年8月3日20点20分，亲爱的各位探险者您好！我们的《天彬》小说封面已顺利更新，祝各位探险者阅读愉快！",
-    "html":"<a href=¥https://www.qidian.com/book/1041003789¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(135deg,var(--primary-color),var(--accent-color));color:var(--white);font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px rgba(92,107,192,0.4);transition:all 0.3s ease;transform:translateY(0);text-decoration:none;¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px rgba(92,107,192,0.5)'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px rgba(92,107,192,0.4)'¥>皇上，请您立刻前往</a>",
+    "html":"<a href=¥https://www.qidian.com/book/1041003789 ¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(135deg,#2D3047,#5C6BC0);color:#fff;font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px rgba(92,107,192,.4);transition:all .3s ease;text-decoration:none¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px rgba(92,107,192,.5)'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px rgba(92,107,192,.4)'¥>皇上，请您立刻前往</a>",
     "imgs": [
       "https://bookcover.yuewen.com/qdbimg/349573/1041003789/600.webp"
     ]
