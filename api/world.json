@@ -4,6 +4,6 @@
   "sections": [
     { "id": "world_xian", "name": "仙界", "icon": "☯️", "type": "yo" },
     { "id": "world_mo", "name": "魔界", "icon": "🌓", "type": "yo" },
-    { "id": "world_yao", "name": "妖界", "icon": "🔮" "type": "yo" }
+    { "id": "world_yao", "name": "妖界", "icon": "🔮", "type": "yo" }
   ]
 }
