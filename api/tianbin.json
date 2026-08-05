@@ -7,8 +7,15 @@
     "html":"<meta http-equiv=¥refresh¥ content=¥0;url=https://www.tianbin.org¥>"
   },
   {
-    "title": "框架设定·凡界",
+    "title": "框架设定·仙、魔、妖界",
     "date": "2026-08-06",
+    "author": "<a href=\"https://bintian.net/world.html\">框架设定</a>",
+    "content": "立即了解前往仙、魔、妖界↓ \n⚠️：进世界后,请点击下列任意一个框架设定。 \n这是路由显示bug,小蛇懒得解决,自行点击解决。",
+    "html":"<style>@keyframes b{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}</style><a href=¥https://bintian.net/world.html¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400%;color:#fff;font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px #0003;transition:all .3s ease;text-decoration:none;animation:b 10s ease infinite¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px #5c6bc080'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px #0003'¥>框架设定·仙、魔、妖界</a>"
+  },
+  {
+    "title": "框架设定·凡界",
+    "date": "2026-08-05",
     "author": "<a href=\"https://bintian.net/mortalrealm.html\">框架设定</a>",
     "content": "立即了解前往凡界↓ \n⚠️：进凡界后,请点击下列任意一个框架设定。 \n这是路由显示bug,小蛇懒得解决,自行点击解决。",
     "html":"<style>@keyframes b{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}</style><a href=¥https://bintian.net/mortalrealm.html¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400%;color:#fff;font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px #0003;transition:all .3s ease;text-decoration:none;animation:b 10s ease infinite¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px #5c6bc080'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px #0003'¥>框架设定·凡界</a>"
