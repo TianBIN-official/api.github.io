@@ -3,12 +3,12 @@
   "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
     {
-      "id": "play",
+      "id": "api",
       "name": "框架设定",
       "icon": "📜"
     },
     {
-      "id": "api",
+      "id": "you",
       "name": "开发·随笔",
       "icon": "🪶"
     },
