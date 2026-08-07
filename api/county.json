@@ -4,6 +4,6 @@
   "sections": [
     { "id": "county_mortalrealm", "name": "凡界", "icon": "🧭", "type": "yo" },
     { "id": "county_territory", "name": "郡县", "icon": "🌠", "type": "yo" },
-    { "id": "county_realm", "name": "祖界", "icon": "🌌", "type": "yo" }
+    { "id": "county_world", "name": "宇界", "icon": "🌌", "type": "yo" }
   ]
 }
