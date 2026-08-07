@@ -1,0 +1,9 @@
+{
+  "siteName": "天彬TianBIN | 框架设定·祖界",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "sections": [
+    { "id": "realm_county", "name": "郡县", "icon": "🏔️", "type": "yo" },
+    { "id": "realm_rule", "name": "法则", "icon": "🌋", "type": "yo" },
+    { "id": "realm_world", "name": "世界", "icon": "🗻", "type": "yo" }
+  ]
+}
