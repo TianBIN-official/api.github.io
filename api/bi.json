@@ -1,0 +1,9 @@
+{
+  "siteName": "苏天彬",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "sections": [
+    { "id": "bi_choiceblossomsfromthegroveofpens", "name": "笔林撷萃", "icon": "🧭", "type": "yo" },
+    { "id": "bi_leisurelywritingsinsparetime", "name": "岁余闲笔", "icon": "🌠", "type": "yo" },
+    { "id": "bi_occasionalrecordsoftheinkplough", "name": "墨耕偶记", "icon": "🌌", "type": "yo" }
+  ]
+}
