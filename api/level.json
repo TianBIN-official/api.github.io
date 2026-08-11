@@ -1,9 +1,9 @@
 {
-  "siteName": "天彬TianBIN | 框架设定·境界榜",
+  "siteName": "天彬TianBIN | 框架设定·战力榜",
   "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
     { "id": "level_mysterious", "name": "玄士阵营", "icon": "🥋", "type": "yo" },
-    { "id": "level_ranking", "name": "境界榜", "icon": "☯", "type": "yo" },
+    { "id": "level_ranking", "name": "战力榜", "icon": "☯", "type": "yo" },
     { "id": "level_science", "name": "科士阵营", "icon": "🚀", "type": "yo" }
   ]
 }
