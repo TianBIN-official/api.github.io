@@ -1,12 +1,5 @@
 [
   {
-    "title": "凡界—人物录",
-    "date": "2026-08-11",
-    "author": "0",
-    "content": "凡体炼身，练气筑基，金丹元婴出窍，化神合体渡劫大乘。殊途同归，散仙真仙、灵煞天魔、蛮荒天妖，各证神祇，上参天道，终至祖神祖道，创世为极。",
-    "html":"<style>@keyframes b{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}</style><a href=¥https://bintian.net/world.html#world_xian¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400%;color:#fff;font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px #0003;transition:all .3s ease;text-decoration:none;animation:b 10s ease infinite¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px #5c6bc080'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px #0003'¥>§凡界—人物录§</a>"
-  },
-  {
     "title": "杏雨煾",
     "date": "2026-05-19",
     "author": "1033",
@@ -93,5 +86,12 @@
     "date": "2015-06-08",
     "author": "0",
     "content": "角色性别：雌雄同体 \n角色生日：2.29 \n角色年龄：█████████ \n角色身高：█████████  \n角色体重：█████████ \n出身地区：混天域（虚空） \n职业身份：创世始祖 \n角色外貌：碧绿色的巨蛇，人形化身是苏天彬 \n角色故事：混沌未开之时，碧绿色的巨蛇盘踞在虚空中央，祂是先天诞生的自然之神、创世始祖，没有它就没有整个虚空和无数宇界众生。 \n补充内容：  \n祂将体内的妖丹创造出“天彬域”，划分为凡界、仙界、妖界、魔界、天界、神界、道界、祖界 八界。 \n体外混沌被祂赐名为“混天域” \n祂将大道法则拆成碎片洒向八界，让众生有法可依。 \n化身为一个少年模样，落在祖界，自号祖帝苏天彬，本体与化身是一魂双体的性质。"
+  },
+  {
+    "title": "凡界·人物录",
+    "date": "2099-08-11",
+    "author": "<a href=\"https://bintian.net/mortalrealm.html#mortalrealm_character\">凡界传奇人物录</a>",
+    "content": "若册籍查不到登记前往",
+    "html":"<style>@keyframes b{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}</style><a href=¥https://bintian.net/mortalrealm.html#mortalrealm_character¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400%;color:#fff;font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px #0003;transition:all .3s ease;text-decoration:none;animation:b 10s ease infinite¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px #5c6bc080'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px #0003'¥>§凡界—人物录§</a>"
   }
 ]
