@@ -2,6 +2,6 @@
   "siteName": "苏天彬の随笔 | 公告资讯｜文天玩WenTianPlay×文天游WenTianYo",
   "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
-    { "id": "bi_api-wentianplay.json", "name": "文天玩", "icon": "🎟️" },
-    { "id": "bi_api-tianbin.json", "name": "每日随笔", "icon": "🪶" },
-    { "id": "bi_api-wentianyo.json", "name": "文天游", "icon": "🎫" }
+    { "id": "bi_api-wentianplay", "name": "文天玩", "icon": "🎟️" },
+    { "id": "bi_api-tianbin", "name": "每日随笔", "icon": "🪶" },
+    { "id": "bi_api-wentianyo", "name": "文天游", "icon": "🎫" }
