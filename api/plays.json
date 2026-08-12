@@ -2,6 +2,8 @@
   "siteName": "苏天彬每日随笔|公告资讯-文天玩WenTianPlay×文天游WenTianYo",
   "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
-    { "id": "play", "name": "文天玩", "icon": "🎟️" },
-    { "id": "bi_api", "name": "每日随笔", "icon": "🪶" },
-    { "id": "you", "name": "文天游", "icon": "🎫" }
+    { "id": "bi_choiceblossomsfromthegroveofpens", "name": "笔林撷萃", "icon": "🖋️" },
+    { "id": "bi_leisurelywritingsinsparetime", "name": "岁余闲笔", "icon": "🖊️" },
+    { "id": "bi_occasionalrecordsoftheinkplough", "name": "墨耕偶记", "icon": "🪶" }
+  ]
+}
