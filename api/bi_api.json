@@ -1,7 +1,9 @@
-{
-  "siteName": "苏天彬每日随笔|公告资讯-文天玩WenTianPlay×文天游WenTianYo",
-  "favicon": "https://api.wentianplays.com/favicon.ico",
-  "sections": [
-    { "id": "bi_api-wentianplay", "name": "文天玩", "icon": "🎟️" },
-    { "id": "bi_api-tianbin", "name": "每日随笔", "icon": "🪶" },
-    { "id": "bi_api-wentianyo", "name": "文天游", "icon": "🎫" }
+[
+  {
+    "title": "正在写…",
+    "date": "2026-08-12",
+    "author": "2",
+    "content": "༺日༒记༻",
+    "html": ""
+  }
+]
