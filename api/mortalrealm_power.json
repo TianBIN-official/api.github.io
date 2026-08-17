@@ -1,6 +1,6 @@
 [
   {
-    "id": "YC_001",
+    "id": "001",
     "national_power": 85,
     "economy": 78,
     "military": 92,
@@ -13,7 +13,7 @@
     "population": 5000
   },
   {
-    "id": "QZ_002",
+    "id": "002",
     "national_power": 72,
     "economy": 85,
     "military": 68,
