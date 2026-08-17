@@ -1,26 +1,28 @@
 [
   {
-    "id": "001",
-    "national_power": 850,
-    "economy": 720,
-    "military": 900,
-    "technology": 680,
-    "diplomacy": 550,
-    "morale": 780,
-    "culture": 640,
-    "territory": 1200,
-    "politics": 700
+    "id": "YC_001",
+    "national_power": 85,
+    "economy": 78,
+    "military": 92,
+    "technology": 65,
+    "diplomacy": 70,
+    "morale": 88,
+    "culture": 75,
+    "territory": 120,
+    "politics": 80,
+    "population": 5000
   },
   {
-    "id": "002",
-    "national_power": 620,
-    "economy": 580,
-    "military": 650,
-    "technology": 510,
-    "diplomacy": 480,
-    "morale": 590,
-    "culture": 520,
-    "territory": 800,
-    "politics": 560
+    "id": "QZ_002",
+    "national_power": 72,
+    "economy": 85,
+    "military": 68,
+    "technology": 90,
+    "diplomacy": 82,
+    "morale": 65,
+    "culture": 88,
+    "territory": 95,
+    "politics": 77,
+    "population": 3200
   }
 ]
