@@ -2,7 +2,7 @@
   "siteName": "天彬TianBIN | 框架设定·凡界",
   "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
-    { "id": "mortalrealm_character", "name": "人物录", "icon": "🎖" },
+    { "id": "mortalrealm_character", "name": "传奇人物录", "icon": "🎖" },
     { "id": "mortalrealm_country", "name": "国家信息", "icon": "🏛" },
     { "id": "mortalrealm_power", "name": "国家排名", "icon": "🏆" }
   ]
