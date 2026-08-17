@@ -3,7 +3,7 @@
   "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
     { "id": "mortalrealm_character", "name": "人物录", "icon": "🎖" },
-    { "id": "mortalrealm_country", "name": "国家", "icon": "🏛" },
-    { "id": "mortalrealm_power", "name": "排名", "icon": "📜" }
+    { "id": "mortalrealm_country", "name": "国家信息", "icon": "🏛" },
+    { "id": "mortalrealm_power", "name": "国家排名", "icon": "🏆" }
   ]
 }
