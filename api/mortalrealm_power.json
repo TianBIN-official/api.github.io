@@ -1,6 +1,6 @@
 [
   {
-    "id": "GZ-001",
+    "id": "001",
     "national_power": 850,
     "economy": 720,
     "military": 900,
@@ -12,7 +12,7 @@
     "politics": 700
   },
   {
-    "id": "GZ-002",
+    "id": "002",
     "national_power": 620,
     "economy": 580,
     "military": 650,
