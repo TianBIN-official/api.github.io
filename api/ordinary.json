@@ -1,0 +1,9 @@
+{
+  "siteName": "天彬TianBIN | 框架设定·凡界",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "sections": [
+    { "id": "ordinary_character", "name": "传奇人物录", "icon": "🎖" },
+    { "id": "ordinary_country", "name": "国家信息", "icon": "🏛" },
+    { "id": "ordinary_power", "name": "国家排名", "icon": "🏆" }
+  ]
+}
