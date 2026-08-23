@@ -1,0 +1,9 @@
+{
+  "siteName": "天彬TianBIN | 框架设定·郡县",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "sections": [
+    { "id": "county_mortalrealm", "name": "凡界", "icon": "🧭", "type": "yo" },
+    { "id": "county_territory", "name": "郡县", "icon": "🌠", "type": "yo" },
+    { "id": "county_world", "name": "宇界", "icon": "🌌", "type": "yo" }
+  ]
+}
