@@ -1,0 +1,9 @@
+{
+  "siteName": "天彬TianBIN | 框架设定·表世界、世界夹层、里世界",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "sections": [
+    { "id": "world_surface", "name": "表世界", "icon": "☯️", "type": "yo" },
+    { "id": "world_mezzanine", "name": "世界夹层", "icon": "🌓", "type": "yo" },
+    { "id": "world_inside", "name": "里世界", "icon": "🔮", "type": "yo" }
+  ]
+}
