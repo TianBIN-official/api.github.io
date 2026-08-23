@@ -4,7 +4,7 @@
   "favicon": "https://api.wentianplays.com/favicon.ico",
   "sections": [
     { "id": "bi_choiceblossomsfromthegroveofpens", "name": "笔林撷萃", "icon": "🖋️" },
-    { "id": "bi_leisurelywritingsinsparetime", "name": "岁余闲笔", "icon": "🖊️" },
+    { "id": "bi_api", "name": "岁余闲笔", "icon": "🖊️" },
     { "id": "bi_occasionalrecordsoftheinkplough", "name": "墨耕偶记", "icon": "🪶" }
   ]
 }
