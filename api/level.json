@@ -1,9 +1,0 @@
-{
-  "siteName": "天彬TianBIN | 框架设定·玄士阵营×科士阵营",
-  "favicon": "https://api.wentianplays.com/favicon.ico",
-  "sections": [
-    { "id": "level_mysterious", "name": "玄士阵营", "icon": "🥋", "type": "yo" },
-    { "id": "level_ranking", "name": "阵营纷争", "icon": "☯" },
-    { "id": "level_science", "name": "科士阵营", "icon": "🚀", "type": "yo" }
-  ]
-}

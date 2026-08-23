@@ -1,9 +1,0 @@
-{
-  "siteName": "天彬TianBIN | 框架设定·天、神、道界",
-  "favicon": "https://api.wentianplays.com/favicon.ico",
-  "sections": [
-    { "id": "heavenlyrealm_heavenlyrealm", "name": "天界", "icon": "🏔️", "type": "yo" },
-    { "id": "heavenlyrealm_divinerealm", "name": "神界", "icon": "🌋", "type": "yo" },
-    { "id": "heavenlyrealm_taorealm", "name": "道界", "icon": "🗻", "type": "yo" }
-  ]
-}
