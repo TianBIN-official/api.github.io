@@ -1,0 +1,21 @@
+{
+  "siteName": "天彬TianBIN | 框架设定",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "sections": [
+    {
+      "id": "api",
+      "name": "框架设定",
+      "icon": "📜"
+    },
+    {
+      "id": "you",
+      "name": "纶音",
+      "icon": "🪶"
+    },
+    {
+      "id": "yo",
+      "name": "『册籍』",
+      "icon": "📖"
+    }
+  ]
+}
