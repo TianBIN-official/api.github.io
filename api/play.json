@@ -7,6 +7,7 @@
     "html":"<style>@keyframes b{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}</style><a href=¥https://mp.weixin.qq.com/s/khhduGKHaq_bg7imroOJgw¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400%;color:#fff;font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px #0003;transition:all .3s ease;text-decoration:none;animation:b 10s ease infinite¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px #5c6bc080'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px #0003'¥>微信公众号</a><br><a href=¥https://www.bilibili.com/read/cv52632637/¥ target=¥_blank¥ rel=¥noopener noreferrer¥ style=¥display:block;width:fit-content;margin:2rem auto 0;padding:1rem 3rem;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400%;color:#fff;font-size:1.25rem;font-weight:700;border:none;border-radius:50px;cursor:pointer;box-shadow:0 10px 30px #0003;transition:all .3s ease;text-decoration:none;animation:b 10s ease infinite¥ onmouseover=¥this.style.transform='translateY(-5px)';this.style.boxShadow='0 15px 40px #5c6bc080'¥ onmouseout=¥this.style.transform='translateY(0)';this.style.boxShadow='0 10px 30px #0003'¥>bilibili</a>",
     "imgs": [
       "https://bookcover.yuewen.com/qdbimg/349573/1041003789/600.webp"
+    ]
   },
   {
     "title": "《天彬》小说封面更新",
