@@ -360,6 +360,15 @@ rules:
   - DOMAIN-SUFFIX,pximg.net,天彬TianBIN.org
   - DOMAIN-SUFFIX,pixiv.net,天彬TianBIN.org
   - DOMAIN-SUFFIX,app-measurement.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,doubleclick.net,REJECT
+  - DOMAIN-SUFFIX,googlesyndication.com,REJECT
+  - DOMAIN-SUFFIX,googleadservices.com,REJECT
+  - DOMAIN-SUFFIX,adservice.google.com,REJECT
+  - DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
+  - DOMAIN-SUFFIX,facebook.net,REJECT
+  - DOMAIN-KEYWORD,adnxs,REJECT
+  - DOMAIN-KEYWORD,adsystem,REJECT
+  - GEOSITE,gfw,天彬TianBIN.org
   - DOMAIN-SUFFIX,cn,网络代理
   - GEOSITE,cn,网络代理
   - GEOIP,CN,网络代理
