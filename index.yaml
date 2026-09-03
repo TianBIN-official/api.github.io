@@ -336,6 +336,29 @@ rules:
   - GEOIP,private,DIRECT,no-resolve
   - DOMAIN-SUFFIX,qq.com,网络代理
   - DOMAIN-SUFFIX,bilibili.com,网络代理
+  - DOMAIN-SUFFIX,youtube.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,google.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,microsoft.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,googlevideo.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,googleapis.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,live.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,ytimg.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,github.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,github.io,天彬TianBIN.org
+  - DOMAIN-SUFFIX,githubusercontent.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,facebook.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,fbsbx.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,x.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,twitter.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tiktokv.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,instagram.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,cdninstagram.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,twimg.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tiktokcdn.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,telegram.org,天彬TianBIN.org
+  - DOMAIN-SUFFIX,t.me,天彬TianBIN.org
+  - DOMAIN-SUFFIX,pximg.net,天彬TianBIN.org
+  - DOMAIN-SUFFIX,pixiv.net,天彬TianBIN.org
   - DOMAIN-SUFFIX,cn,网络代理
   - GEOSITE,cn,网络代理
   - GEOIP,CN,网络代理
