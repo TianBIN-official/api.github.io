@@ -316,7 +316,7 @@ proxy-groups:
       - 美国 - Los Angeles - 2
       - 美国 - Los Angeles - 3
       - 美国 - Los Angeles - 4
-      - DIRECT
+      - 网络代理
   - name: 网络代理
     type: select
     proxies:
