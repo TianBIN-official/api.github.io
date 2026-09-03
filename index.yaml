@@ -12,9 +12,9 @@ keep-alive-interval: 360
 ipv6: false
 geodata-mode: true
 geox-url:
-  geoip: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
-  geosite: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
-  mmdb: "https://testingcf.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+  geoip: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/latest/geoip.dat"
+  geosite: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://github.com/Loyalsoldier/geoip/releases/download/latest/Country.mmdb"
 tun:
   enable: true
   stack: system
