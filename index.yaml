@@ -359,6 +359,7 @@ rules:
   - DOMAIN-SUFFIX,t.me,天彬TianBIN.org
   - DOMAIN-SUFFIX,pximg.net,天彬TianBIN.org
   - DOMAIN-SUFFIX,pixiv.net,天彬TianBIN.org
+  - DOMAIN-SUFFIX,app-measurement.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,cn,网络代理
   - GEOSITE,cn,网络代理
   - GEOIP,CN,网络代理
