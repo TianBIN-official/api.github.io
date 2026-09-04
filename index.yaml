@@ -336,6 +336,7 @@ rules:
   - GEOIP,private,DIRECT,no-resolve
   - DOMAIN-SUFFIX,qq.com,网络代理
   - DOMAIN-SUFFIX,bilibili.com,网络代理
+  - DOMAIN-SUFFIX,ollama.com,网络代理
   - DOMAIN-SUFFIX,youtube.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,google.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,microsoft.com,天彬TianBIN.org
