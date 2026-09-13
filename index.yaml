@@ -337,6 +337,7 @@ rules:
   - DOMAIN-SUFFIX,qq.com,网络代理
   - DOMAIN-SUFFIX,bilibili.com,网络代理
   - DOMAIN-SUFFIX,ollama.com,网络代理
+  - DOMAIN-SUFFIX,tlwywl.com,网络代理
   - DOMAIN-SUFFIX,youtube.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,google.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,microsoft.com,天彬TianBIN.org
@@ -373,4 +374,7 @@ rules:
   - DOMAIN-SUFFIX,cn,网络代理
   - GEOSITE,cn,网络代理
   - GEOIP,CN,网络代理
+  - DOMAIN-SUFFIX,hk,天彬TianBIN.org
+  - GEOSITE,hk,天彬TianBIN.org
+  - GEOIP,HK,天彬TianBIN.org
   - MATCH,天彬TianBIN.org
