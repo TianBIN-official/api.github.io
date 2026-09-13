@@ -368,13 +368,11 @@ rules:
   - DOMAIN-SUFFIX,adservice.google.com,REJECT
   - DOMAIN-SUFFIX,amazon-adsystem.com,REJECT
   - DOMAIN-SUFFIX,facebook.net,REJECT
+  - DOMAIN-SUFFIX,hk,天彬TianBIN.org
+  - DOMAIN-SUFFIX,cn,网络代理
   - DOMAIN-KEYWORD,adnxs,REJECT
   - DOMAIN-KEYWORD,adsystem,REJECT
   - GEOSITE,gfw,天彬TianBIN.org
-  - DOMAIN-SUFFIX,cn,网络代理
   - GEOSITE,cn,网络代理
   - GEOIP,CN,网络代理
-  - DOMAIN-SUFFIX,hk,天彬TianBIN.org
-  - GEOSITE,hk,天彬TianBIN.org
-  - GEOIP,HK,天彬TianBIN.org
   - MATCH,天彬TianBIN.org
