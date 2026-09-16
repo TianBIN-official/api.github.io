@@ -1,31 +1,42 @@
 {
   "siteName": "天彬TianBIN | 框架设定",
-  "favicon": "https://api.wentianplays.com/favicon.ico",
-  "apiBase": "https://api.tianbin.org/api/",
   "homeId": "home",
-  "autoRefreshMax": 3,
-  "antiDebug": true,
-  "clearCacheOnUnload": true,
+  "apiBase": "https://api.tianbin.org/api/",
+  "security": {
+    "watermark": true,
+    "watermarkText": "天彬TianBIN",
+    "devtoolsRedirect": "http://www.tianbin.net"
+  },
+  "behavior": {
+    "requestTimeout": 1000,
+    "concurrencyLimit": 3,
+    "retryBackoff": [500, 1000, 2000]
+  },
+  "theme": {
+    "default": "white"
+  },
   "bottomNav": [
     {
       "id": "home",
       "name": "框架设定",
-      "icon": "📜"
+      "icon": "🏠"
     },
     {
       "id": "you",
       "name": "纶音",
-      "icon": "🪶"
+      "icon": "📢"
     },
     {
       "id": "yo",
       "name": "册籍",
-      "icon": "📖"
+      "icon": "📚",
+      "badge": true
     },
     {
       "id": "notice",
       "name": "公告",
-      "icon": "📢"
+      "icon": "📋",
+      "badge": true
     },
     {
       "id": "about",
@@ -35,37 +46,49 @@
   ],
   "sections": {
     "home": {
-      "name": "框架设定",
       "api": "home.json",
-      "perPage": 10,
-      "searchable": false
+      "perPage": 5,
+      "searchable": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "date",
+      "sortOrder": "desc"
     },
     "you": {
-      "name": "纶音",
       "api": "you.json",
-      "perPage": 8,
-      "searchable": false
+      "perPage": 5,
+      "searchable": true,
+      "searchFields": ["title", "content"],
+      "searchMode": "simple",
+      "sortBy": "date",
+      "sortOrder": "desc"
     },
     "yo": {
-      "name": "册籍",
       "api": "yo.json",
       "perPage": 5,
       "searchable": true,
-      "searchFields": ["author", "title"],
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
       "sortBy": "date",
       "sortOrder": "desc"
     },
     "notice": {
-      "name": "公告",
       "api": "notice.json",
-      "perPage": 6,
-      "searchable": false
+      "perPage": 5,
+      "searchable": true,
+      "searchFields": ["title", "content"],
+      "searchMode": "simple",
+      "sortBy": "date",
+      "sortOrder": "desc"
     },
     "about": {
-      "name": "关于",
       "api": "about.json",
       "perPage": 5,
-      "searchable": false
+      "searchable": false,
+      "searchFields": ["title"],
+      "searchMode": "simple",
+      "sortBy": "",
+      "sortOrder": "desc"
     }
   }
 }
