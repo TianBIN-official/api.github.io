@@ -1,6 +1,6 @@
 {
   "siteName": "天彬TianBIN | 框架设定",
-  "homeId": "home",
+  "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
   "security": {
     "watermark": true,
@@ -17,15 +17,20 @@
   },
   "bottomNav": [
     {
-      "id": "home",
+      "id": "api",
       "name": "框架设定",
       "icon": "🏠"
     },
     {
-      "id": "you",
-      "name": "纶音",
+      "id": "ppp",
+      "name": "",
       "icon": "📢"
     },
+    {
+      "id": "about",
+      "name": "关于",
+      "icon": "ℹ️"
+          },
     {
       "id": "yo",
       "name": "册籍",
@@ -33,20 +38,15 @@
       "badge": true
     },
     {
-      "id": "notice",
-      "name": "公告",
+      "id": "you",
+      "name": "纶音",
       "icon": "📋",
       "badge": true
-    },
-    {
-      "id": "about",
-      "name": "关于",
-      "icon": "ℹ️"
     }
   ],
   "sections": {
-    "home": {
-      "api": "home.json",
+    "api": {
+      "api": "api.json",
       "perPage": 5,
       "searchable": true,
       "searchFields": ["title", "content", "author"],
@@ -54,25 +54,7 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "you": {
-      "api": "you.json",
-      "perPage": 5,
-      "searchable": true,
-      "searchFields": ["title", "content"],
-      "searchMode": "simple",
-      "sortBy": "date",
-      "sortOrder": "desc"
-    },
-    "yo": {
-      "api": "yo.json",
-      "perPage": 5,
-      "searchable": true,
-      "searchFields": ["title", "content", "author"],
-      "searchMode": "weighted",
-      "sortBy": "date",
-      "sortOrder": "desc"
-    },
-    "notice": {
+    "you1": {
       "api": "notice.json",
       "perPage": 5,
       "searchable": true,
@@ -88,6 +70,24 @@
       "searchFields": ["title"],
       "searchMode": "simple",
       "sortBy": "",
+      "sortOrder": "desc"
+    },
+    "yo": {
+      "api": "yo.json",
+      "perPage": 5,
+      "searchable": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "date",
+      "sortOrder": "desc"
+    },
+    "you": {
+      "api": "you.json",
+      "perPage": 5,
+      "searchable": true,
+      "searchFields": ["title", "content"],
+      "searchMode": "simple",
+      "sortBy": "date",
       "sortOrder": "desc"
     }
   }
