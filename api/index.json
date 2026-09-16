@@ -4,7 +4,7 @@
   "apiBase": "https://api.tianbin.org/api/",
   "security": {
     "watermark": true,
-    "watermarkText": "天彬TianBIN",
+    "watermarkText": "起点小说《天彬》",
     "imgWatermark": true,
     "devtoolsRedirect": "http://www.tianbin.net"
   },
