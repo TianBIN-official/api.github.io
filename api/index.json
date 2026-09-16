@@ -3,19 +3,16 @@
   "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
   "security": {
-    "watermark": true,
     "watermarkText": "起点小说《天彬》",
-    "imgWatermark": true,
     "devtoolsRedirect": "http://www.tianbin.net"
   },
   "behavior": {
     "requestTimeout": 1000,
-    "concurrencyLimit": 3,
-    "retryBackoff": [500, 1000, 2000],
-    "pagerPosition": "bottom"
+    "concurrencyLimit": 3
   },
   "theme": {
-    "default": "white"
+    "default": "white",
+    "version": "2.0"
   },
   "opSearch": {
     "enabled": true,
@@ -26,11 +23,11 @@
     "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
   },
   "bottomNav": [
-    { "id": "api", "name": "框架设定", "icon": "🏠" },
-    { "id": "you1", "name": "公告", "icon": "📢" },
-    { "id": "about", "name": "关于", "icon": "ℹ️" },
-    { "id": "you", "name": "纶音", "icon": "📋", "badge": true },
-    { "id": "yo", "name": "册籍", "icon": "📚", "badge": true }
+    { "id": "api",   "name": "框架设定", "icon": "📜" },
+    { "id": "plays",  "name": "官方公告",     "icon": "📢" },
+    { "id": "world", "name": "世界观",     "icon": "☭" },
+    { "id": "you",   "name": "纶音",     "icon": "🪶", "badge": true },
+    { "id": "yo",    "name": "册籍",     "icon": "📖", "badge": true }
   ],
   "sections": {
     "api": {
@@ -42,27 +39,27 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "you1": {
-      "api": "notice.json",
-      "perPage": 10,
+    "plays": {
+      "api": "plays.json",
+      "perPage": 5,
       "searchable": true,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "about": {
-      "api": "about.json",
-      "perPage": 10,
+    "world": {
+      "api": "world.json",
+      "perPage": 5,
       "searchable": false,
       "searchFields": ["title"],
       "searchMode": "simple",
-      "sortBy": "",
+      "sortBy": "date",
       "sortOrder": "desc"
     },
     "you": {
       "api": "you.json",
-      "perPage": 10,
+      "perPage": 5,
       "searchable": true,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
