@@ -17,12 +17,20 @@
   "theme": {
     "default": "white"
   },
+  "opSearch": {
+    "enabled": true,
+    "numericOnly": true,
+    "exactMatch": true,
+    "returnPageOnEmpty": true,
+    "cardOnFound": true,
+    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
+  },
   "bottomNav": [
     { "id": "api", "name": "框架设定", "icon": "🏠" },
     { "id": "you1", "name": "公告", "icon": "📢" },
     { "id": "about", "name": "关于", "icon": "ℹ️" },
     { "id": "you", "name": "纶音", "icon": "📋", "badge": true },
-    { "id": "yo", "name": "册籍", "icon": "📚", "badge": true, "op":true }
+    { "id": "yo", "name": "册籍", "icon": "📚", "badge": true }
   ],
   "sections": {
     "api": {
@@ -68,7 +76,8 @@
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "date",
-      "sortOrder": "desc"
+      "sortOrder": "desc",
+      "opEnabled": true
     }
   }
 }
