@@ -1,1 +1,71 @@
-
+{
+  "siteName": "天彬TianBIN | 框架设定",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "apiBase": "https://api.tianbin.org/api/",
+  "homeId": "home",
+  "autoRefreshMax": 3,
+  "antiDebug": true,
+  "clearCacheOnUnload": true,
+  "bottomNav": [
+    {
+      "id": "home",
+      "name": "框架设定",
+      "icon": "📜"
+    },
+    {
+      "id": "you",
+      "name": "纶音",
+      "icon": "🪶"
+    },
+    {
+      "id": "yo",
+      "name": "册籍",
+      "icon": "📖"
+    },
+    {
+      "id": "notice",
+      "name": "公告",
+      "icon": "📢"
+    },
+    {
+      "id": "about",
+      "name": "关于",
+      "icon": "ℹ️"
+    }
+  ],
+  "sections": {
+    "home": {
+      "name": "框架设定",
+      "api": "home.json",
+      "perPage": 10,
+      "searchable": false
+    },
+    "you": {
+      "name": "纶音",
+      "api": "you.json",
+      "perPage": 8,
+      "searchable": false
+    },
+    "yo": {
+      "name": "册籍",
+      "api": "yo.json",
+      "perPage": 5,
+      "searchable": true,
+      "searchFields": ["author", "title"],
+      "sortBy": "date",
+      "sortOrder": "desc"
+    },
+    "notice": {
+      "name": "公告",
+      "api": "notice.json",
+      "perPage": 6,
+      "searchable": false
+    },
+    "about": {
+      "name": "关于",
+      "api": "about.json",
+      "perPage": 5,
+      "searchable": false
+    }
+  }
+}
