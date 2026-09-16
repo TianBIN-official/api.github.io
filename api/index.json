@@ -18,33 +18,11 @@
     "default": "white"
   },
   "bottomNav": [
-    {
-      "id": "api",
-      "name": "框架设定",
-      "icon": "🏠"
-    },
-    {
-      "id": "you1",
-      "name": "公告",
-      "icon": "📢"
-    },
-    {
-      "id": "about",
-      "name": "关于",
-      "icon": "ℹ️"
-    },
-    {
-      "id": "you",
-      "name": "纶音",
-      "icon": "📋",
-      "badge": true
-    },
-    {
-      "id": "yo",
-      "name": "册籍",
-      "icon": "📚",
-      "badge": true
-    }
+    { "id": "api", "name": "框架设定", "icon": "🏠" },
+    { "id": "you1", "name": "公告", "icon": "📢" },
+    { "id": "about", "name": "关于", "icon": "ℹ️" },
+    { "id": "you", "name": "纶音", "icon": "📋", "badge": true },
+    { "id": "yo", "name": "册籍", "icon": "📚", "badge": true }
   ],
   "sections": {
     "api": {
