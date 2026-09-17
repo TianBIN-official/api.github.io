@@ -1,0 +1,11 @@
+{
+  "announcement": {
+    "enabled": true,
+    "version": "2026-09-17-01",
+    "title": "天彬TianBIN · 使用条款与公告",
+    "content": "欢迎来到《天彬》框架设定站。<br><br>1. 本站内容为小说 / 游戏框架设定，禁止搬运牟利。<br>2. 册籍（#yo/ID）仅作登记查询，未登记即代表尚未入库。<br>3. 进入即代表你已阅读并同意社区规则。<br>4. 调试器 / 爬虫 / 批量抓取将被限流或跳转。<br><br>官方登记：https://www.TianBIN.org",
+    "agreeText": "我阅读并同意以上条款内容",
+    "position": "bottom-center",
+    "showOncePerVersion": true
+  }
+}
