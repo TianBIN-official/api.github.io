@@ -2,13 +2,19 @@
   "siteName": "天彬TianBIN | 框架设定",
   "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
+  "registerUrl": "https://www.TianBIN.org",
   "security": {
     "watermarkText": "起点小说《天彬》",
-    "devtoolsRedirect": "http://www.tianbin.net"
+    "devtoolsRedirect": "http://www.tianbin.net",
+    "blockContextMenu": true,
+    "blockF12": true,
+    "blockCtrlU": true,
+    "blockCtrlS": true
   },
   "behavior": {
     "requestTimeout": 1000,
-    "concurrencyLimit": 3
+    "concurrencyLimit": 3,
+    "retry": 3
   },
   "theme": {
     "default": "white",
@@ -24,13 +30,14 @@
   },
   "bottomNav": [
     { "id": "api",   "name": "框架设定", "icon": "📜" },
-    { "id": "plays",  "name": "官方公告",     "icon": "📢" },
-    { "id": "world", "name": "世界观",     "icon": "☭" },
+    { "id": "plays", "name": "官方公告", "icon": "📢" },
+    { "id": "world", "name": "世界观",   "icon": "☭" },
     { "id": "you",   "name": "纶音",     "icon": "🪶", "badge": true },
     { "id": "yo",    "name": "册籍",     "icon": "📖", "badge": true }
   ],
   "sections": {
     "api": {
+      "name": "框架设定",
       "api": "api.json",
       "perPage": 10,
       "searchable": true,
@@ -40,6 +47,7 @@
       "sortOrder": "desc"
     },
     "plays": {
+      "name": "官方公告",
       "api": "plays.json",
       "perPage": 5,
       "searchable": true,
@@ -49,6 +57,7 @@
       "sortOrder": "desc"
     },
     "world": {
+      "name": "世界观",
       "api": "world.json",
       "perPage": 5,
       "searchable": false,
@@ -58,6 +67,7 @@
       "sortOrder": "desc"
     },
     "you": {
+      "name": "纶音",
       "api": "you.json",
       "perPage": 5,
       "searchable": true,
@@ -67,6 +77,7 @@
       "sortOrder": "desc"
     },
     "yo": {
+      "name": "册籍",
       "api": "yo.json",
       "perPage": 5,
       "searchable": true,
