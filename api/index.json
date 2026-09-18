@@ -56,7 +56,7 @@
   "bottomNav": [
     { "id": "api",   "name": "框架设定", "icon": "📜" },
     { "id": "plays", "name": "官方公告", "icon": "📢" },
-    { "id": "world", "name": "世界观",   "icon": "🌍" },
+    { "id": "world", "name": "世界观",   "icon": "☭" },
     { "id": "you",   "name": "纶音",     "icon": "🪶", "badge": true },
     { "id": "yo",    "name": "册籍",     "icon": "📖", "badge": true }
   ],
