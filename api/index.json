@@ -3,23 +3,40 @@
   "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
+  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "version": "2.0.0",
+  "buildTime": "2026-09-18",
+
   "security": {
     "watermarkText": "起点小说《天彬》",
     "devtoolsRedirect": "http://www.tianbin.net",
     "blockContextMenu": true,
     "blockF12": true,
     "blockCtrlU": true,
-    "blockCtrlS": true
+    "blockCtrlS": true,
+    "blockCopy": true,
+    "blockPrint": true
   },
+
   "behavior": {
-    "requestTimeout": 1000,
+    "requestTimeout": 5000,
     "concurrencyLimit": 3,
-    "retry": 3
+    "retry": 3,
+    "maxSearchHistory": 5
   },
+
   "theme": {
     "default": "white",
     "version": "2.0"
   },
+
+  "announcement": {
+    "enabled": true,
+    "source": "index.json",
+    "requireAgree": true,
+    "lockScroll": true
+  },
+
   "opSearch": {
     "enabled": true,
     "numericOnly": true,
@@ -28,19 +45,29 @@
     "cardOnFound": true,
     "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
   },
+
+  "errorMessages": {
+    "loadFailed": "拉取加载数据中...",
+    "emptyContent": "暂无内容",
+    "notFound": "该信息未登记!<br>请前往www.TianBIN.org登记!!!",
+    "copySuccess": "链接已复制"
+  },
+
   "bottomNav": [
     { "id": "api",   "name": "框架设定", "icon": "📜" },
     { "id": "plays", "name": "官方公告", "icon": "📢" },
-    { "id": "world", "name": "世界观",   "icon": "☭" },
+    { "id": "world", "name": "世界观",   "icon": "🌍" },
     { "id": "you",   "name": "纶音",     "icon": "🪶", "badge": true },
     { "id": "yo",    "name": "册籍",     "icon": "📖", "badge": true }
   ],
+
   "sections": {
     "api": {
       "name": "框架设定",
       "api": "api.json",
       "perPage": 10,
       "searchable": true,
+      "opEnabled": false,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "date",
@@ -51,6 +78,7 @@
       "api": "plays.json",
       "perPage": 5,
       "searchable": true,
+      "opEnabled": false,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
       "sortBy": "date",
@@ -61,6 +89,7 @@
       "api": "world.json",
       "perPage": 5,
       "searchable": false,
+      "opEnabled": false,
       "searchFields": ["title"],
       "searchMode": "simple",
       "sortBy": "date",
@@ -71,6 +100,7 @@
       "api": "you.json",
       "perPage": 5,
       "searchable": true,
+      "opEnabled": false,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
       "sortBy": "date",
@@ -81,11 +111,11 @@
       "api": "yo.json",
       "perPage": 5,
       "searchable": true,
+      "opEnabled": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
-      "sortBy": "date",
-      "sortOrder": "desc",
-      "opEnabled": true
+      "sortBy": "id",
+      "sortOrder": "desc"
     }
   }
 }
