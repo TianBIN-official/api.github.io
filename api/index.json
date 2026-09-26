@@ -3,7 +3,7 @@
   "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
-  "favicon": "https://api.wentianplays.com/favicon.ico",
+  "favicon": "https://wentianwan.com/favicon.ico",
   "version": "2.0.0",
   "buildTime": "2026-09-18",
 
@@ -20,7 +20,7 @@
 
   "behavior": {
     "requestTimeout": 5000,
-    "concurrencyLimit": 3,
+    "concurrencyLimit": 6,
     "retry": 3,
     "maxSearchHistory": 5
   },
