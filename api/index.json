@@ -55,9 +55,9 @@
 
   "bottomNav": [
     { "id": "api",   "name": "框架设定", "icon": "📜" },
-    { "id": "plays", "name": "官方公告", "icon": "📢" },
+    { "id": "play", "name": "『纶音』", "icon": "📢" },
     { "id": "world", "name": "世界观",   "icon": "☭" },
-    { "id": "you",   "name": "纶音",     "icon": "🪶", "badge": true },
+    { "id": "wan",   "name": "〖大纲〗",     "icon": "🪶", "badge": true },
     { "id": "yo",    "name": "册籍",     "icon": "📖", "badge": true }
   ],
 
@@ -65,7 +65,7 @@
     "api": {
       "name": "框架设定",
       "api": "api.json",
-      "perPage": 10,
+      "perPage": 5,
       "searchable": true,
       "opEnabled": false,
       "searchFields": ["title", "content", "author"],
@@ -73,9 +73,9 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "plays": {
-      "name": "官方公告",
-      "api": "plays.json",
+    "play": {
+      "name": "『纶音』",
+      "api": "play.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
@@ -95,9 +95,9 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "you": {
-      "name": "纶音",
-      "api": "you.json",
+    "wan": {
+      "name": "〖大纲〗",
+      "api": "wan.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
