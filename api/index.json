@@ -1,6 +1,6 @@
 {
   "siteName": "天彬TianBIN | 框架设定",
-  "homeId": "api",
+  "homeId": "world",
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
   "favicon": "https://wentianwan.com/favicon.ico",
