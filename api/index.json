@@ -54,11 +54,11 @@
   },
 
   "bottomNav": [
-    { "id": "api",   "name": "框架设定", "icon": "📜" },
+    { "id": "api", "name": "框架设定", "icon": "📜" },
     { "id": "play", "name": "『纶音』", "icon": "📢" },
-    { "id": "world", "name": "世界观",   "icon": "☭" },
-    { "id": "wan",   "name": "〖大纲〗",     "icon": "🪶", "badge": true },
-    { "id": "yo",    "name": "册籍",     "icon": "📖", "badge": true }
+    { "id": "wan", "name": "〖大纲〗", "icon": "🪶" },
+    { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
+    { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
   ],
 
   "sections": {
@@ -84,9 +84,9 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "world": {
-      "name": "世界观",
-      "api": "world.json",
+    "wan": {
+      "name": "〖大纲〗",
+      "api": "wan.json",
       "perPage": 5,
       "searchable": false,
       "opEnabled": false,
@@ -95,9 +95,9 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "wan": {
-      "name": "〖大纲〗",
-      "api": "wan.json",
+    "world": {
+      "name": "世界观",
+      "api": "world.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
