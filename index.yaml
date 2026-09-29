@@ -350,6 +350,7 @@ rules:
   - DOMAIN-SUFFIX,ollama.com,网络代理
   - DOMAIN-SUFFIX,gitee.com,网络代理
   - DOMAIN-SUFFIX,juming.com,网络代理
+  - DOMAIN-SUFFIX,zhihu.com,网络代理
   - DOMAIN-SUFFIX,juyu.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,youtube.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,google.com,天彬TianBIN.org
