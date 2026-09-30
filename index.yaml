@@ -341,6 +341,7 @@ rules:
   - DOMAIN-SUFFIX,qq.com,网络代理
   - DOMAIN-SUFFIX,tencent.com,网络代理
   - DOMAIN-SUFFIX,bilibili.com,网络代理
+  - DOMAIN-SUFFIX,bilivideo.com,网络代理
   - DOMAIN-SUFFIX,douyin.com,网络代理
   - DOMAIN-SUFFIX,kuaishou.com,网络代理
   - DOMAIN-SUFFIX,youku.com,网络代理
