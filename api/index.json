@@ -6,7 +6,6 @@
   "favicon": "https://wentianwan.com/favicon.ico",
   "version": "2.0.0",
   "buildTime": "2026-09-18",
-
   "security": {
     "watermarkText": "起点小说《天彬》",
     "devtoolsRedirect": "http://www.tianbin.net",
@@ -17,26 +16,22 @@
     "blockCopy": true,
     "blockPrint": true
   },
-
   "behavior": {
     "requestTimeout": 5000,
     "concurrencyLimit": 6,
     "retry": 3,
     "maxSearchHistory": 5
   },
-
   "theme": {
     "default": "white",
     "version": "2.0"
   },
-
   "announcement": {
     "enabled": true,
     "source": "index.json",
     "requireAgree": true,
     "lockScroll": true
   },
-
   "opSearch": {
     "enabled": true,
     "numericOnly": true,
@@ -45,14 +40,12 @@
     "cardOnFound": true,
     "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
   },
-
   "errorMessages": {
     "loadFailed": "拉取加载数据中...",
     "emptyContent": "暂无内容",
     "notFound": "该信息未登记!<br>请前往www.TianBIN.org登记!!!",
     "copySuccess": "链接已复制"
   },
-
   "bottomNav": [
     { "id": "play", "name": "框架设定", "icon": "📜" },
     { "id": "wan", "name": "『纶音』", "icon": "📢" },
@@ -60,7 +53,6 @@
     { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
     { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
   ],
-
   "sections": {
     "play": {
       "name": "框架设定",
