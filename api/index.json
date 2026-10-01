@@ -71,12 +71,7 @@
     "type": "image",
     "src": "https://tianbin.net/bg/main.jpg",
     "poster": "",
-    "sources": [],
-    "music": {
-      "type": "netease",
-      "id": "22768905",
-      "volume": 0.7
-    }
+    "sources": []
   },
   "opSearch": {
     "enabled": true,
