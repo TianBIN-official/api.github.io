@@ -30,7 +30,53 @@
     "enabled": true,
     "source": "index.json",
     "requireAgree": true,
-    "lockScroll": true
+    "lockScroll": true,
+    "title": "重要公告",
+    "content": "欢迎来到天彬TianBIN框架设定官网！\n请仔细阅读以下条款后再继续浏览。\n版权所有：苏天彬（本名李文飞，字天彬）",
+    "countdown": 6,
+    "images": [
+      "https://tianbin.net/imgs/ann1.jpg",
+      "https://tianbin.net/imgs/ann2.jpg"
+    ],
+    "html": "<h2 style=\"color:#1e293b;text-align:center;\">详细条款内容</h2><p style=\"line-height:1.8;color:#64748b;\">这是公告的详细条款正文，支持任意HTML内容，包括段落、列表、图片、链接等。</p><ul style=\"color:#64748b;line-height:1.8;\"><li>条款一：本网站内容均为原创设定</li><li>条款二：未经许可不得转载</li><li>条款三：最终解释权归版权所有方</li></ul>"
+  },
+  "music": {
+    "enabled": true,
+    "volume": 0.7,
+    "loop": true,
+    "autoplay": false,
+    "defaultIndex": 0,
+    "list": [
+      {
+        "name": "烂泥",
+        "artist": "草东没有派对",
+        "type": "netease",
+        "id": "22768905"
+      },
+      {
+        "name": "山海",
+        "artist": "草东没有派对",
+        "type": "netease",
+        "id": "436514312"
+      },
+      {
+        "name": "自定义歌曲",
+        "artist": "未知",
+        "type": "url",
+        "url": "https://tianbin.net/music/custom.mp3"
+      }
+    ]
+  },
+  "background": {
+    "type": "image",
+    "src": "https://tianbin.net/bg/main.jpg",
+    "poster": "",
+    "sources": [],
+    "music": {
+      "type": "netease",
+      "id": "22768905",
+      "volume": 0.7
+    }
   },
   "opSearch": {
     "enabled": true,
