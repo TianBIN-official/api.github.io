@@ -1,6 +1,6 @@
 {
   "siteName": "天彬TianBIN | 框架设定",
-  "homeId": "wan",
+  "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
   "favicon": "https://wentianwan.com/favicon.ico",
@@ -54,17 +54,17 @@
   },
 
   "bottomNav": [
-    { "id": "api", "name": "框架设定", "icon": "📜" },
-    { "id": "play", "name": "『纶音』", "icon": "📢" },
-    { "id": "wan", "name": "༺探险之旅༻", "icon": "🪶" },
+    { "id": "play", "name": "框架设定", "icon": "📜" },
+    { "id": "wan", "name": "『纶音』", "icon": "📢" },
+    { "id": "api", "name": "༺探险之旅༻", "icon": "🪶" },
     { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
     { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
   ],
 
   "sections": {
-    "api": {
+    "play": {
       "name": "框架设定",
-      "api": "api.json",
+      "api": "play.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
@@ -73,9 +73,9 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "play": {
+    "wan": {
       "name": "『纶音』",
-      "api": "play.json",
+      "api": "wan.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
@@ -84,9 +84,9 @@
       "sortBy": "date",
       "sortOrder": "desc"
     },
-    "wan": {
+    "api": {
       "name": "༺探险之旅༻",
-      "api": "wan.json",
+      "api": "api.json",
       "perPage": 5,
       "searchable": false,
       "opEnabled": false,
