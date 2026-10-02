@@ -4,8 +4,8 @@
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
   "favicon": "https://wentianwan.com/favicon.ico",
-  "version": "2.1.0",
-  "buildTime": "2026-10-02",
+  "version": "2.0.0",
+  "buildTime": "2026-09-18",
   "security": {
     "watermarkText": "起点小说《天彬》",
     "devtoolsRedirect": "http://www.tianbin.net",
@@ -14,42 +14,23 @@
     "blockCtrlU": true,
     "blockCtrlS": true,
     "blockCopy": true,
-    "blockPrint": true,
-    "blockDrag": true,
-    "blockIframe": true,
-    "antiDebugInterval": 800,
-    "devtoolsCheckInterval": 500,
-    "timeDriftThreshold": 5000
+    "blockPrint": true
   },
   "behavior": {
     "requestTimeout": 5000,
     "concurrencyLimit": 6,
     "retry": 3,
-    "maxSearchHistory": 10,
-    "failResetOnSuccess": true
+    "maxSearchHistory": 5
   },
   "theme": {
     "default": "white",
-    "version": "2.1"
+    "version": "2.0"
   },
   "announcement": {
     "enabled": true,
-    "source": "https://api.tianbin.org/index.json",
+    "source": "index.json",
     "requireAgree": true,
-    "lockScroll": true,
-    "countdown": 6,
-    "showImages": true,
-    "showHtml": true,
-    "title": "天彬TianBIN 框架设定站",
-    "content": "欢迎来到天彬世界观设定站。\n本站点所有内容版权归苏天彬（李文飞）所有。\n未经许可禁止转载、商用。\n点击「查看详细条款」阅读完整协议内容。"
-  },
-  "search": {
-    "highlight": true,
-    "historyEnabled": true,
-    "maxHistory": 10,
-    "historyStorageKey": "tianbin_search_history",
-    "preventBubble": true,
-    "clearClosesPanel": true
+    "lockScroll": true
   },
   "music": {
     "enabled": true,
@@ -57,34 +38,24 @@
     "loop": true,
     "autoplay": false,
     "defaultIndex": 0,
-    "playerType": "netease-outchain",
-    "outchainBase": "http://music.163.com/outchain/player",
-    "outchainParams": "type=0&auto=0&height=430",
     "list": [
       {
         "name": "烂泥",
         "artist": "草东没有派对",
-        "type": 0,
         "id": "22768905"
       },
       {
         "name": "山海",
         "artist": "草东没有派对",
-        "type": 0,
         "id": "436514312"
       }
     ]
   },
   "background": {
     "type": "image",
-    "src": "https://tianbin.net/bg/main.jpg"
-  },
-  "router": {
-    "enabled": true,
-    "prefix": "#",
-    "pattern": ":col/:id",
-    "cardOnFound": true,
-    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
+    "src": "https://tianbin.net/bg/main.jpg",
+    "poster": "",
+    "sources": []
   },
   "opSearch": {
     "enabled": true,
@@ -92,24 +63,42 @@
     "exactMatch": true,
     "returnPageOnEmpty": true,
     "cardOnFound": true,
-    "highlight": true,
-    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!",
-    "autoOpenDelay": 0,
-    "preventTypingInterrupt": true
+    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
   },
   "errorMessages": {
     "loadFailed": "拉取加载数据中...",
     "emptyContent": "暂无内容",
     "notFound": "该信息未登记!<br>请前往www.TianBIN.org登记!!!",
-    "copySuccess": "链接已复制",
-    "retryCount": "重试中 ({count}/3)"
+    "copySuccess": "链接已复制"
   },
   "bottomNav": [
-    { "id": "play", "name": "框架设定", "icon": "📜" },
-    { "id": "wan", "name": "『纶音』", "icon": "📢" },
-    { "id": "api", "name": "༺探险之旅༻", "icon": "🪶" },
-    { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
-    { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
+    {
+      "id": "play",
+      "name": "框架设定",
+      "icon": "📜"
+    },
+    {
+      "id": "wan",
+      "name": "『纶音』",
+      "icon": "📢"
+    },
+    {
+      "id": "api",
+      "name": "༺探险之旅༻",
+      "icon": "🪶"
+    },
+    {
+      "id": "world",
+      "name": "世界观",
+      "icon": "☭",
+      "badge": true
+    },
+    {
+      "id": "yo",
+      "name": "册籍",
+      "icon": "📖",
+      "badge": true
+    }
   ],
   "sections": {
     "play": {
@@ -118,7 +107,11 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "searchFields": ["title", "content", "author"],
+      "searchFields": [
+        "title",
+        "content",
+        "author"
+      ],
       "searchMode": "weighted",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -129,7 +122,10 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "searchFields": ["title", "content"],
+      "searchFields": [
+        "title",
+        "content"
+      ],
       "searchMode": "simple",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -140,7 +136,9 @@
       "perPage": 5,
       "searchable": false,
       "opEnabled": false,
-      "searchFields": ["title"],
+      "searchFields": [
+        "title"
+      ],
       "searchMode": "simple",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -151,7 +149,10 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "searchFields": ["title", "content"],
+      "searchFields": [
+        "title",
+        "content"
+      ],
       "searchMode": "simple",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -162,7 +163,11 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
-      "searchFields": ["title", "content", "author"],
+      "searchFields": [
+        "title",
+        "content",
+        "author"
+      ],
       "searchMode": "weighted",
       "sortBy": "id",
       "sortOrder": "desc"
