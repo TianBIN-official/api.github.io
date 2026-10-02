@@ -1,12 +1,10 @@
 {
   "announcement": {
     "enabled": true,
-    "title": "天彬TianBIN 框架设定站",
-    "content": "欢迎来到天彬世界观设定站。\n本站点所有内容版权归苏天彬（李文飞）所有。\n未经许可禁止转载、商用。",
-    "html": "",
-    "images": [
-      "https://tianbin.net/announce/banner1.jpg"
-    ],
+    "title": "天彬TianBIN 框架设定站 - 使用协议",
+    "content": "本站点所有内容版权归苏天彬（李文飞）所有。未经许可禁止转载、商用。请点击「查看详细条款」阅读完整协议。",
+    "html": "<h2>详细条款与协议</h2><p>第一条：本站点所有文字、设定、世界观架构均受著作权保护...</p><p>第二条：...</p><p>...</p><p>最后一条：...</p>",
+    "images": [],
     "countdown": 6
   }
 }
