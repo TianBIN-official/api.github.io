@@ -1,19 +1,13 @@
 {
   "enabled": true,
-  "version": "1.0.0",
-  "title": "天彬TianBIN 公告",
-  "countdown": 6,
-  "lockScroll": true,
-  "requireAgree": true,
-  "content": "欢迎使用天彬TianBIN框架设定官网，请仔细阅读以下条款：",
-  "html": "<p>1. 本网站所有内容仅供框架设定参考使用。</p><p>2. 未经许可不得转载或用于商业用途。</p><p>3. 最终解释权归天彬TianBIN所有。</p>",
+  "title": "公告",
+  "content": "请前往 www.TianBIN.org 登记！！！",
+  "html": "<p>请前往 <a href=\"https://www.TianBIN.org\" target=\"_blank\">www.TianBIN.org</a> 进行信息登记</p><p>未登记的信息将无法通过OP查号检索</p>",
   "images": [
     {
       "src": "https://tianbin.net/announce/banner1.jpg",
-      "alt": "公告配图1",
-      "width": "100%"
+      "alt": "公告配图"
     }
   ],
-  "agreeButtonText": "我知道了",
-  "disagreeText": "请等待倒计时结束"
+  "version": "20260918"
 }
