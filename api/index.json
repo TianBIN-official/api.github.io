@@ -39,7 +39,9 @@
     "lockScroll": true,
     "countdown": 6,
     "showImages": true,
-    "showHtml": true
+    "showHtml": true,
+    "title": "天彬TianBIN 框架设定站",
+    "content": "欢迎来到天彬世界观设定站。\n本站点所有内容版权归苏天彬（李文飞）所有。\n未经许可禁止转载、商用。\n点击「查看详细条款」阅读完整协议内容。"
   },
   "search": {
     "highlight": true,
