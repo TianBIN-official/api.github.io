@@ -20,7 +20,7 @@
     "requestTimeout": 5000,
     "concurrencyLimit": 6,
     "retry": 3,
-    "maxSearchHistory": 5
+    "maxSearchHistory": 10
   },
   "theme": {
     "default": "white",
@@ -28,9 +28,18 @@
   },
   "announcement": {
     "enabled": true,
-    "source": "index.json",
+    "source": "https://api.tianbin.org/index.json",
     "requireAgree": true,
-    "lockScroll": true
+    "lockScroll": true,
+    "countdown": 6,
+    "showImages": true,
+    "showHtml": true
+  },
+  "search": {
+    "highlight": true,
+    "historyEnabled": true,
+    "maxHistory": 10,
+    "historyStorageKey": "tianbin_search_history"
   },
   "music": {
     "enabled": true,
@@ -38,32 +47,34 @@
     "loop": true,
     "autoplay": false,
     "defaultIndex": 0,
+    "playerType": "netease-outchain",
+    "outchainBase": "http://music.163.com/outchain/player",
+    "outchainParams": "auto=0&height=430",
     "list": [
       {
         "name": "烂泥",
         "artist": "草东没有派对",
-        "type": "netease",
+        "type": 0,
         "id": "22768905"
       },
       {
         "name": "山海",
         "artist": "草东没有派对",
-        "type": "netease",
+        "type": 0,
         "id": "436514312"
-      },
-      {
-        "name": "自定义歌曲",
-        "artist": "未知",
-        "type": "url",
-        "url": "https://tianbin.net/music/custom.mp3"
       }
     ]
   },
   "background": {
     "type": "image",
-    "src": "https://tianbin.net/bg/main.jpg",
-    "poster": "",
-    "sources": []
+    "src": "https://tianbin.net/bg/main.jpg"
+  },
+  "router": {
+    "enabled": true,
+    "prefix": "#",
+    "pattern": ":col/:id",
+    "cardOnFound": true,
+    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
   },
   "opSearch": {
     "enabled": true,
@@ -71,6 +82,7 @@
     "exactMatch": true,
     "returnPageOnEmpty": true,
     "cardOnFound": true,
+    "highlight": true,
     "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
   },
   "errorMessages": {
