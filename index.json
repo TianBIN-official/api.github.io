@@ -1,10 +1,11 @@
 {
-  "announcement": {
-    "enabled": true,
-    "title": "天彬TianBIN 框架设定站 - 使用协议",
-    "content": "本站点所有内容版权归苏天彬（李文飞）所有。未经许可禁止转载、商用。请点击「查看详细条款」阅读完整协议。",
-    "html": "<h2>详细条款与协议</h2><p>第一条：本站点所有文字、设定、世界观架构均受著作权保护...</p><p>第二条：...</p><p>...</p><p>最后一条：...</p>",
-    "images": [],
-    "countdown": 6
-  }
+  "enabled": true,
+  "title": "重要公告",
+  "content": "欢迎来到天彬TianBIN框架设定官网！\n请仔细阅读以下条款后再继续浏览。\n版权所有：苏天彬（本名李文飞，字天彬）",
+  "countdown": 6,
+  "images": [
+    "https://tianbin.net/imgs/ann1.jpg",
+    "https://tianbin.net/imgs/ann2.jpg"
+  ],
+  "html": "<h2 style=\"color:#1e293b;text-align:center;\">详细条款内容</h2><p style=\"line-height:1.8;color:#64748b;\">这是公告的详细条款正文，支持任意HTML内容，包括段落、列表、图片、链接等。</p><ul style=\"color:#64748b;line-height:1.8;\"><li>条款一：本网站内容均为原创设定</li><li>条款二：未经许可不得转载</li><li>条款三：最终解释权归版权所有方</li></ul>"
 }
