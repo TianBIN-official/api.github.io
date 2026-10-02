@@ -49,7 +49,7 @@
     "defaultIndex": 0,
     "playerType": "netease-outchain",
     "outchainBase": "http://music.163.com/outchain/player",
-    "outchainParams": "auto=0&height=430",
+    "outchainParams": "type=0&auto=0&height=430",
     "list": [
       {
         "name": "烂泥",
