@@ -1,13 +1,12 @@
 {
-  "enabled": true,
-  "title": "公告",
-  "content": "请前往 www.TianBIN.org 登记！！！",
-  "html": "<p>请前往 <a href=\"https://www.TianBIN.org\" target=\"_blank\">www.TianBIN.org</a> 进行信息登记</p><p>未登记的信息将无法通过OP查号检索</p>",
-  "images": [
-    {
-      "src": "https://tianbin.net/announce/banner1.jpg",
-      "alt": "公告配图"
-    }
-  ],
-  "version": "20260918"
+  "announcement": {
+    "enabled": true,
+    "title": "天彬TianBIN 框架设定站",
+    "content": "欢迎来到天彬世界观设定站。\n本站点所有内容版权归苏天彬（李文飞）所有。\n未经许可禁止转载、商用。",
+    "html": "",
+    "images": [
+      "https://tianbin.net/announce/banner1.jpg"
+    ],
+    "countdown": 6
+  }
 }
