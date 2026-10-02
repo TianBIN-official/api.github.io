@@ -1,11 +1,19 @@
 {
   "enabled": true,
-  "title": "重要公告",
-  "content": "欢迎来到天彬TianBIN框架设定官网！\n请仔细阅读以下条款后再继续浏览。\n版权所有：苏天彬（本名李文飞，字天彬）",
+  "version": "1.0.0",
+  "title": "天彬TianBIN 公告",
   "countdown": 6,
+  "lockScroll": true,
+  "requireAgree": true,
+  "content": "欢迎使用天彬TianBIN框架设定官网，请仔细阅读以下条款：",
+  "html": "<p>1. 本网站所有内容仅供框架设定参考使用。</p><p>2. 未经许可不得转载或用于商业用途。</p><p>3. 最终解释权归天彬TianBIN所有。</p>",
   "images": [
-    "https://tianbin.net/imgs/ann1.jpg",
-    "https://tianbin.net/imgs/ann2.jpg"
+    {
+      "src": "https://tianbin.net/announce/banner1.jpg",
+      "alt": "公告配图1",
+      "width": "100%"
+    }
   ],
-  "html": "<h2 style=\"color:#1e293b;text-align:center;\">详细条款内容</h2><p style=\"line-height:1.8;color:#64748b;\">这是公告的详细条款正文，支持任意HTML内容，包括段落、列表、图片、链接等。</p><ul style=\"color:#64748b;line-height:1.8;\"><li>条款一：本网站内容均为原创设定</li><li>条款二：未经许可不得转载</li><li>条款三：最终解释权归版权所有方</li></ul>"
+  "agreeButtonText": "我知道了",
+  "disagreeText": "请等待倒计时结束"
 }
