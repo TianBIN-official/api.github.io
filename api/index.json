@@ -4,8 +4,8 @@
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
   "favicon": "https://wentianwan.com/favicon.ico",
-  "version": "2.0.0",
-  "buildTime": "2026-09-18",
+  "version": "2.1.0",
+  "buildTime": "2026-10-02",
   "security": {
     "watermarkText": "起点小说《天彬》",
     "devtoolsRedirect": "http://www.tianbin.net",
@@ -14,17 +14,23 @@
     "blockCtrlU": true,
     "blockCtrlS": true,
     "blockCopy": true,
-    "blockPrint": true
+    "blockPrint": true,
+    "blockDrag": true,
+    "blockIframe": true,
+    "antiDebugInterval": 800,
+    "devtoolsCheckInterval": 500,
+    "timeDriftThreshold": 5000
   },
   "behavior": {
     "requestTimeout": 5000,
     "concurrencyLimit": 6,
     "retry": 3,
-    "maxSearchHistory": 10
+    "maxSearchHistory": 10,
+    "failResetOnSuccess": true
   },
   "theme": {
     "default": "white",
-    "version": "2.0"
+    "version": "2.1"
   },
   "announcement": {
     "enabled": true,
@@ -39,7 +45,9 @@
     "highlight": true,
     "historyEnabled": true,
     "maxHistory": 10,
-    "historyStorageKey": "tianbin_search_history"
+    "historyStorageKey": "tianbin_search_history",
+    "preventBubble": true,
+    "clearClosesPanel": true
   },
   "music": {
     "enabled": true,
@@ -83,13 +91,16 @@
     "returnPageOnEmpty": true,
     "cardOnFound": true,
     "highlight": true,
-    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
+    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!",
+    "autoOpenDelay": 0,
+    "preventTypingInterrupt": true
   },
   "errorMessages": {
     "loadFailed": "拉取加载数据中...",
     "emptyContent": "暂无内容",
     "notFound": "该信息未登记!<br>请前往www.TianBIN.org登记!!!",
-    "copySuccess": "链接已复制"
+    "copySuccess": "链接已复制",
+    "retryCount": "重试中 ({count}/3)"
   },
   "bottomNav": [
     { "id": "play", "name": "框架设定", "icon": "📜" },
