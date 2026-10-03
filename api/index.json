@@ -4,7 +4,7 @@
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
   "favicon": "https://wentianwan.com/favicon.ico",
-  "version": "2.0.0",
+  "version": "2.2.9",
   "buildTime": "2026-09-18",
   "security": {
     "watermarkText": "起点小说《天彬》",
@@ -38,13 +38,14 @@
     "loop": true,
     "autoplay": false,
     "defaultIndex": 0,
-    "list": [
+    "singleList": [
       {
         "name": "背景音乐",
         "artist": "苏天彬",
         "id": "3873192913"
       }
-    ]
+    ],
+    "playlistList": []
   },
   "background": {
     "type": "image",
