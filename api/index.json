@@ -38,14 +38,14 @@
     "loop": true,
     "autoplay": false,
     "defaultIndex": 0,
-    "singleList": [
+    "singleList": [],
+    "playlistList": [
       {
         "name": "背景音乐",
         "artist": "苏天彬",
         "id": "3873192913"
       }
-    ],
-    "playlistList": []
+]
   },
   "background": {
     "type": "image",
