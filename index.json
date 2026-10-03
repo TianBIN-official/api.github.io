@@ -1,10 +1,29 @@
 {
   "announcement": {
     "enabled": true,
-    "title": "天彬TianBIN 框架设定站",
-    "content": "欢迎访问天彬TianBIN框架设定站。\n本站点所有内容版权归苏天彬（李文飞）所有。\n未经授权禁止转载、复制、传播。\n本站为框架设定展示，部分功能需手动操作。\n请仔细阅读以下条款。",
+    "requireAgree": true,
+    "lockScroll": true,
     "countdown": 6,
+    "title": "天彬TianBIN 框架设定官网",
+    "content": "欢迎访问天彬TianBIN框架设定官网！\n请务必阅读并同意《详细条款》后方可访问。\n版权所有：苏天彬（本名李文飞，字天彬）",
     "images": [],
-    "html": "<div style='padding:10px;border:1px solid var(--border);border-radius:8px;margin-top:10px;'><h4 style='margin-bottom:8px;'>详细条款</h4><p style='font-size:12px;line-height:1.8;'>1. 本站所有内容（含文字、图片、音频、设定、代码）版权均归苏天彬（李文飞）所有，未经书面授权禁止任何形式的转载、复制、传播、改编及商业使用。</p><p style='font-size:12px;line-height:1.8;'>2. 禁止利用本站内容进行任何违法违规活动，禁止逆向工程、批量抓取、自动化访问、爬虫采集等行为。</p><p style='font-size:12px;line-height:1.8;'>3. 本站内容仅供交流学习，不保证实时准确性，使用者需自行判断并承担相关风险。</p><p style='font-size:12px;line-height:1.8;'>4. 违反上述条款者，本站有权采取包括但不限于封禁IP、限制访问、追究法律责任等措施。</p></div>"
+    "termsSections": [
+      {
+        "title": "版权声明",
+        "body": "本站所有内容（含文字、图片、音频、设定、代码）版权均归苏天彬（李文飞）所有，未经书面授权禁止任何形式的转载、复制、传播、改编及商业使用。"
+      },
+      {
+        "title": "使用限制",
+        "body": "禁止利用本站内容进行任何违法违规活动，禁止逆向工程、批量抓取、自动化访问、爬虫采集等行为。"
+      },
+      {
+        "title": "免责声明",
+        "body": "本站内容仅供交流学习，不保证实时准确性，使用者需自行判断并承担相关风险。"
+      },
+      {
+        "title": "违规处理",
+        "body": "违反上述条款者，本站有权采取包括但不限于封禁IP、限制访问、追究法律责任等措施。"
+      }
+    ]
   }
 }
