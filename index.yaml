@@ -375,23 +375,25 @@ rules:
   - DOMAIN-SUFFIX,tianbin.org,天彬TianBIN.org
   - DOMAIN-SUFFIX,tianbin.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,tianbin.net,天彬TianBIN.org
-  - DOMAIN-SUFFIX,tiktok.com,天彬TianBIN.org
-  - DOMAIN-SUFFIX,tiktokcdn-us.com,天彬TianBIN.org
-  - DOMAIN-SUFFIX,kaspersky-labs.com,天彬TianBIN.org
-  - DOMAIN-SUFFIX,ttwstatic.com,天彬TianBIN.org
-  - DOMAIN-SUFFIX,bing.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,juyu.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,bing.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,youtube.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,google.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,microsoft.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,googlevideo.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,googleapis.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,gstatic.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,live.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,ytimg.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,ggpht.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,github.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,github.io,天彬TianBIN.org
   - DOMAIN-SUFFIX,githubassets.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,githubusercontent.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tiktok.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tiktokcdn-us.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,kaspersky-labs.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,ttwstatic.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,cloudflare.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,facebook.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,fbsbx.com,天彬TianBIN.org
