@@ -343,7 +343,6 @@ rules:
   - DOMAIN-SUFFIX,tencent.com,网络代理
   - DOMAIN-SUFFIX,bilibili.com,网络代理
   - DOMAIN-SUFFIX,bilivideo.com,网络代理
-  - DOMAIN-SUFFIX,douyin.com,网络代理
   - DOMAIN-SUFFIX,kuaishou.com,网络代理
   - DOMAIN-SUFFIX,youku.com,网络代理
   - DOMAIN-SUFFIX,szcoolfish.com,网络代理
@@ -353,12 +352,34 @@ rules:
   - DOMAIN-SUFFIX,gitee.com,网络代理
   - DOMAIN-SUFFIX,juming.com,网络代理
   - DOMAIN-SUFFIX,zhihu.com,网络代理
+  - DOMAIN-SUFFIX,baidu.com,网络代理
+  - DOMAIN-SUFFIX,douyin.com,网络代理
+  - DOMAIN-SUFFIX,bytedance.com,网络代理
+  - DOMAIN-SUFFIX,bytescm.com,网络代理
+  - DOMAIN-SUFFIX,bytetos.com,网络代理
+  - DOMAIN-SUFFIX,ibytedapm.com,网络代理
+  - DOMAIN-SUFFIX,iesdouyin.com,网络代理
+  - DOMAIN-SUFFIX,bytednsdoc.com,网络代理
+  - DOMAIN-SUFFIX,douyinstatic.com,网络代理
+  - DOMAIN-SUFFIX,bytegecko.com,网络代理
+  - DOMAIN-SUFFIX,yhgfb-cn-static.com,网络代理
+  - DOMAIN-SUFFIX,bytegoofy.com,网络代理
+  - DOMAIN-SUFFIX,applogcdn.com,网络代理
+  - DOMAIN-SUFFIX,byteimg.com,网络代理
+  - DOMAIN-SUFFIX,douyinpic.com,网络代理
+  - DOMAIN-SUFFIX,zijieapi.com,网络代理
+  - DOMAIN-SUFFIX,douyinstatic.com,网络代理
   - DOMAIN-SUFFIX,wentianyo.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,wentianwan.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,wentianplay.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,tianbin.org,天彬TianBIN.org
   - DOMAIN-SUFFIX,tianbin.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,tianbin.net,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tiktok.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tiktokcdn-us.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,kaspersky-labs.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,ttwstatic.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,bing.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,juyu.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,youtube.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,google.com,天彬TianBIN.org
@@ -369,6 +390,7 @@ rules:
   - DOMAIN-SUFFIX,ytimg.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,github.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,github.io,天彬TianBIN.org
+  - DOMAIN-SUFFIX,githubassets.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,githubusercontent.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,cloudflare.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,facebook.com,天彬TianBIN.org
