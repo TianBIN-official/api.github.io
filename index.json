@@ -1,16 +1,12 @@
 {
   "announcement": {
     "enabled": true,
-    "forceEveryVisit": true,
-    "readSeconds": 6,
-    "title": "站点服务协议与更新公告",
-    "content": "一、访问规则…\n二、版权归属…\n三、音乐与内容…\n四、免责声明…\n五、争议处理…\n（写足够长，弹窗内必须出现滚动条）",
-    "html": "<p style='margin:0 0 8px'>可放<b>富文本</b>、链接、表格等</p>",
-    "images": [
-      "https://api.tianbin.org/static/ann1.jpg",
-      "https://api.tianbin.org/static/ann2.jpg"
-    ],
+    "title": "重要公告",
+    "content": "一、访问规则…\n二、版权归属…\n三、音乐与内容…\n四、免责声明…\n五、争议处理…\n（内容需足够长，确保容器出现滚动条）",
+    "html": "",
+    "images": [],
     "agreeText": "我阅读并同意以上条款内容",
-    "version": "20261003"
+    "readSeconds": 6,
+    "forceEveryVisit": true
   }
 }
