@@ -3,12 +3,12 @@
   "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
   "registerUrl": "https://www.TianBIN.org",
-  "favicon": "https://wentianwan.com/favicon.ico",
+  "favicon": "https://www.TianBIN.org/favicon.ico",
   "version": "2.2.9",
   "buildTime": "2026-09-18",
   "security": {
     "watermarkText": "起点小说《天彬》",
-    "devtoolsRedirect": "http://www.tianbin.net",
+    "devtoolsRedirect": "https://www.TianBIN.org",
     "blockContextMenu": true,
     "blockF12": true,
     "blockCtrlU": true,
@@ -28,9 +28,10 @@
   },
   "announcement": {
     "enabled": true,
-    "source": "index.json",
+    "source": "announce.json",
     "requireAgree": true,
-    "lockScroll": true
+    "lockScroll": true,
+    "countdown": 6
   },
   "music": {
     "enabled": true,
@@ -38,14 +39,15 @@
     "loop": true,
     "autoplay": false,
     "defaultIndex": 0,
-    "singleList": [],
+    "mode": "playlist",
+    "modes": ["playlist", "single"],
+    "singleList": [
+      { "name": "烂泥", "artist": "草东没有派对", "id": "22768905" },
+      { "name": "山海", "artist": "草东没有派对", "id": "436514312" }
+    ],
     "playlistList": [
-      {
-        "name": "背景音乐",
-        "artist": "苏天彬",
-        "id": "3873192913"
-      }
-]
+      { "name": "背景音乐", "artist": "苏天彬", "id": "3873192913" }
+    ]
   },
   "background": {
     "type": "image",
@@ -68,105 +70,17 @@
     "copySuccess": "链接已复制"
   },
   "bottomNav": [
-    {
-      "id": "play",
-      "name": "框架设定",
-      "icon": "📜"
-    },
-    {
-      "id": "wan",
-      "name": "『纶音』",
-      "icon": "📢"
-    },
-    {
-      "id": "api",
-      "name": "༺探险之旅༻",
-      "icon": "🪶"
-    },
-    {
-      "id": "world",
-      "name": "世界观",
-      "icon": "☭",
-      "badge": true
-    },
-    {
-      "id": "yo",
-      "name": "册籍",
-      "icon": "📖",
-      "badge": true
-    }
+    { "id": "play", "name": "框架设定", "icon": "📜" },
+    { "id": "wan", "name": "『纶音』", "icon": "📢" },
+    { "id": "api", "name": "༺探险之旅༻", "icon": "🪶" },
+    { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
+    { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
   ],
   "sections": {
-    "play": {
-      "name": "框架设定",
-      "api": "play.json",
-      "perPage": 5,
-      "searchable": true,
-      "opEnabled": false,
-      "searchFields": [
-        "title",
-        "content",
-        "author"
-      ],
-      "searchMode": "weighted",
-      "sortBy": "date",
-      "sortOrder": "desc"
-    },
-    "wan": {
-      "name": "『纶音』",
-      "api": "wan.json",
-      "perPage": 5,
-      "searchable": true,
-      "opEnabled": false,
-      "searchFields": [
-        "title",
-        "content"
-      ],
-      "searchMode": "simple",
-      "sortBy": "date",
-      "sortOrder": "desc"
-    },
-    "api": {
-      "name": "༺探险之旅༻",
-      "api": "api.json",
-      "perPage": 5,
-      "searchable": false,
-      "opEnabled": false,
-      "searchFields": [
-        "title"
-      ],
-      "searchMode": "simple",
-      "sortBy": "date",
-      "sortOrder": "desc"
-    },
-    "world": {
-      "name": "世界观",
-      "api": "world.json",
-      "perPage": 5,
-      "searchable": true,
-      "opEnabled": false,
-      "searchFields": [
-        "title",
-        "content"
-      ],
-      "searchMode": "simple",
-      "sortBy": "date",
-      "sortOrder": "desc"
-    },
-    "yo": {
-      "name": "册籍",
-      "api": "yo.json",
-      "perPage": 5,
-      "searchable": true,
-      "opEnabled": true,
-      "searchFields": [
-        "title",
-        "content",
-        "author"
-      ],
-      "searchMode": "weighted",
-      "sortBy": "id",
-      "sortOrder": "desc"
-    }
+    "play":   { "name": "框架设定", "api": "play.json",   "perPage": 5, "searchable": true,  "opEnabled": false, "searchFields": ["title","content","author"], "searchMode": "weighted", "sortBy": "date", "sortOrder": "desc" },
+    "wan":    { "name": "『纶音』",  "api": "wan.json",    "perPage": 5, "searchable": true,  "opEnabled": false, "searchFields": ["title","content"],          "searchMode": "simple",  "sortBy": "date", "sortOrder": "desc" },
+    "api":    { "name": "༺探险之旅༻","api": "api.json",    "perPage": 5, "searchable": false, "opEnabled": false, "searchFields": ["title"],                  "searchMode": "simple",  "sortBy": "date", "sortOrder": "desc" },
+    "world":  { "name": "世界观",   "api": "world.json",  "perPage": 5, "searchable": true,  "opEnabled": false, "searchFields": ["title","content"],          "searchMode": "simple",  "sortBy": "date", "sortOrder": "desc" },
+    "yo":     { "name": "册籍",     "api": "yo.json",     "perPage": 5, "searchable": true,  "opEnabled": true,  "searchFields": ["title","content","author"], "searchMode": "weighted", "sortBy": "id",   "sortOrder": "desc" }
   }
 }
