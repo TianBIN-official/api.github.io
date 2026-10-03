@@ -353,6 +353,12 @@ rules:
   - DOMAIN-SUFFIX,gitee.com,网络代理
   - DOMAIN-SUFFIX,juming.com,网络代理
   - DOMAIN-SUFFIX,zhihu.com,网络代理
+  - DOMAIN-SUFFIX,wentianyo.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,wentianwan.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,wentianplay.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tianbin.org,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tianbin.com,天彬TianBIN.org
+  - DOMAIN-SUFFIX,tianbin.net,天彬TianBIN.org
   - DOMAIN-SUFFIX,juyu.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,youtube.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,google.com,天彬TianBIN.org
