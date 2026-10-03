@@ -20,7 +20,7 @@
   },
   "announcement": {
     "enabled": true,
-    "source": "index.json",
+    "source": "https://api.tianbin.org/index.json",
     "requireAgree": true,
     "lockScroll": true,
     "countdown": 6
@@ -44,6 +44,29 @@
       {
         "name": "山海",
         "id": "436514312"
+      }
+    ],
+    "list": [
+      {
+        "id": "3873192913",
+        "type": 0,
+        "auto": 0,
+        "height": 430,
+        "name": "背景音乐"
+      },
+      {
+        "id": "22768905",
+        "type": 1,
+        "auto": 0,
+        "height": 90,
+        "name": "烂泥"
+      },
+      {
+        "id": "436514312",
+        "type": 1,
+        "auto": 0,
+        "height": 90,
+        "name": "山海"
       }
     ]
   },
@@ -91,11 +114,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "searchFields": [
-        "title",
-        "content",
-        "author"
-      ],
+      "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -106,10 +125,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "searchFields": [
-        "title",
-        "content"
-      ],
+      "searchFields": ["title", "content"],
       "searchMode": "simple",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -120,9 +136,7 @@
       "perPage": 5,
       "searchable": false,
       "opEnabled": false,
-      "searchFields": [
-        "title"
-      ],
+      "searchFields": ["title"],
       "searchMode": "simple",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -133,10 +147,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "searchFields": [
-        "title",
-        "content"
-      ],
+      "searchFields": ["title", "content"],
       "searchMode": "simple",
       "sortBy": "date",
       "sortOrder": "desc"
@@ -147,11 +158,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
-      "searchFields": [
-        "title",
-        "content",
-        "author"
-      ],
+      "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
       "sortOrder": "desc"
