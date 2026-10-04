@@ -2,6 +2,7 @@
   "announcement": {
     "enabled": true,
     "title": "公告",
+    "content": "请点击立即阅读了解↓",
     "tianbin": "<p>公告正文 HTML…</p>",
     "unlockRatio": 0.68
   }
