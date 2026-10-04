@@ -1,6 +1,6 @@
 {
   "siteName": "天彬TianBIN | 框架设定官网",
-  "favicon": "https://www.tianbin.net/favicon.ico",
+  "favicon": "",
   "homeId": "api",
   "apiBase": "https://api.tianbin.org/api/",
   "security": {
