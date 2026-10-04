@@ -27,40 +27,18 @@
     "cardOnFound": true,
     "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
   },
-  "music": {
+  "musicPlayer": {
     "enabled": true,
     "playlistId": "13870904552",
     "volume": 0.7,
     "songs": []
   },
   "bottomNav": [
-    {
-      "id": "play",
-      "name": "框架设定",
-      "icon": "📜"
-    },
-    {
-      "id": "wan",
-      "name": "『纶音』",
-      "icon": "📢"
-    },
-    {
-      "id": "api",
-      "name": "༺探险之旅༻",
-      "icon": "🪶"
-    },
-    {
-      "id": "world",
-      "name": "世界观",
-      "icon": "☭",
-      "badge": true
-    },
-    {
-      "id": "yo",
-      "name": "册籍",
-      "icon": "📖",
-      "badge": true
-    }
+    { "id": "play", "name": "框架设定", "icon": "📜" },
+    { "id": "wan", "name": "『纶音』", "icon": "📢" },
+    { "id": "api", "name": "༺探险之旅༻", "icon": "🪶" },
+    { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
+    { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
   ],
   "sections": {
     "play": {
