@@ -1,12 +1,12 @@
 {
   "siteName": "天彬TianBIN | 框架设定官网",
-  "favicon": "//www.tianbin.net/favicon.ico",
-  "backgroundImage": "//api.tianbin.org/index.png",
+  "favicon": "https://www.tianbin.net/favicon.ico",
+  "backgroundImage": "https://api.tianbin.org/index.png",
   "homeId": "api",
-  "apiBase": "//api.tianbin.org/api/",
+  "apiBase": "https://api.tianbin.org/api/",
   "security": {
     "watermarkText": "起点小说《天彬》",
-    "devtoolsRedirect": "//www.TianBIN.org",
+    "devtoolsRedirect": "https://www.TianBIN.org",
     "blockContextMenu": true,
     "blockF12": true,
     "blockCtrlU": true,
@@ -22,12 +22,12 @@
   },
   "announcement": {
     "enabled": true,
-    "source": "//api.tianbin.org/index.json",
+    "source": "https://api.tianbin.org/index.json",
     "requireAgree": true,
     "lockScroll": true,
     "countdown": 6,
     "title": "天彬TianBIN | 框架设定官网",
-    "content": "【天彬TianBIN · 框架设定】<br>不忘初心，逐梦未来。<br><br>本网站为天彬TianBIN框架设定的官方展示平台，涵盖游戏设定、小说大纲、开发日志等内容。<br><br>注意事项：<br>1. 本站所有内容版权归天彬TianBIN所有<br>2. 转载请注明出处<br>3. 如有疑问请联系管理员<br><br>请前往 <a href='//www.TianBIN.org' target='_blank'>www.TianBIN.org</a> 了解更多详情。<br><br>阅读并同意以上条款后继续访问。"
+    "content": "【天彬TianBIN · 框架设定】<br>不忘初心，逐梦未来。<br><br>本网站为天彬TianBIN框架设定的官方展示平台，涵盖游戏设定、小说大纲、开发日志等内容。<br><br>注意事项：<br>1. 本站所有内容版权归天彬TianBIN所有<br>2. 转载请注明出处<br>3. 如有疑问请联系管理员<br><br>请前往 <a href='https://www.TianBIN.org' target='_blank'>www.TianBIN.org</a> 了解更多详情。<br><br>阅读并同意以上条款后继续访问。"
   },
   "music": {
     "enabled": true,
@@ -81,7 +81,7 @@
   "sections": {
     "play": {
       "name": "框架设定",
-      "api": "bintian.json",
+      "api": "play.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
@@ -92,7 +92,7 @@
     },
     "wan": {
       "name": "『纶音』",
-      "api": "tianbin.json",
+      "api": "wan.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
@@ -125,7 +125,7 @@
     },
     "yo": {
       "name": "册籍",
-      "api": "txt.json",
+      "api": "yo.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
