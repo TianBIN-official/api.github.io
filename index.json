@@ -1,7 +1,8 @@
 {
   "announcement": {
     "enabled": true,
-    "title": "重要公告",
-    "content": "欢迎访问天彬TianBIN！<br>本站正在持续更新中，部分功能可能不稳定。<br>请前往 <a href='https://www.TianBIN.org' target='_blank'>www.TianBIN.org</a> 进行信息登记。<br><br>使用说明：<br>1. 请仔细阅读本公告内容<br>2. 停留至少6秒并滚动阅读超过50%后，点击下方按钮确认<br>3. 确认后即可正常浏览网站"
+    "title": "公告",
+    "tianbin": "<p>公告正文 HTML…</p>",
+    "unlockRatio": 0.68
   }
 }
