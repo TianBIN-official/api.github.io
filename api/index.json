@@ -1,8 +1,7 @@
 {
   "siteName": "天彬TianBIN | 框架设定官网",
-  "favicon": "",
   "homeId": "api",
-  "apiBase": "https://api.tianbin.org/api/",
+  "apiBase": "//api.tianbin.org/api/",
   "security": {
     "watermarkText": "起点小说《天彬》",
     "devtoolsRedirect": "https://www.TianBIN.org",
@@ -15,22 +14,18 @@
   },
   "behavior": {
     "requestTimeout": 5000,
-    "concurrencyLimit": 6,
-    "retry": 3,
-    "maxSearchHistory": 5
+    "concurrencyLimit": 6
   },
   "opSearch": {
     "enabled": true,
     "numericOnly": true,
     "exactMatch": true,
-    "returnPageOnEmpty": true,
-    "cardOnFound": true,
-    "notFoundText": "该信息未登记!<br>请前往www.TianBIN.org登记!!!"
+    "cardOnFound": true
   },
   "musicPlayer": {
     "enabled": true,
     "playlistId": "13870904552",
-    "volume": 0.7,
+    "volume": 0.8,
     "songs": []
   },
   "bottomNav": [
