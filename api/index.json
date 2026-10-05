@@ -3,17 +3,9 @@
   "homeId": "api",
   "apiBase": "//api.tianbin.org/api/",
   "security": {
-    "watermarkText": "起点小说《天彬》",
-    "devtoolsRedirect": "https://www.TianBIN.org",
-    "blockContextMenu": true,
-    "blockF12": true,
-    "blockCtrlU": true,
-    "blockCtrlS": true,
-    "blockCopy": true,
-    "blockPrint": true
+    "watermarkText": "起点小说《天彬》"
   },
   "behavior": {
-    "requestTimeout": 5000,
     "concurrencyLimit": 6
   },
   "opSearch": {
@@ -25,7 +17,7 @@
   "music": {
     "enabled": true,
     "playlistId": "13870904552",
-    "volume": 0.8
+    "icon": "♪"
   },
   "bottomNav": [
     { "id": "play", "name": "框架设定", "icon": "📜" },
