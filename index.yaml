@@ -393,7 +393,6 @@ rules:
   - DOMAIN-SUFFIX,githubusercontent.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,tiktok.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,tiktokcdn-us.com,天彬TianBIN.org
-  - DOMAIN-SUFFIX,kaspersky-labs.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,ttwstatic.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,cloudflare.com,天彬TianBIN.org
   - DOMAIN-SUFFIX,facebook.com,天彬TianBIN.org
