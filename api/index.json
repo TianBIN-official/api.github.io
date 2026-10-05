@@ -22,11 +22,10 @@
     "exactMatch": true,
     "cardOnFound": true
   },
-  "musicPlayer": {
+  "music": {
     "enabled": true,
     "playlistId": "13870904552",
-    "volume": 0.8,
-    "songs": []
+    "volume": 0.8
   },
   "bottomNav": [
     { "id": "play", "name": "框架设定", "icon": "📜" },
