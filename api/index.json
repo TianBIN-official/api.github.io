@@ -1,5 +1,5 @@
 {
-  "siteName": "天彬TianBIN | 框架设定官网",
+  "siteName": "天彬TianBIN | 框架设定",
   "homeId": "api",
   "apiBase": "//api.tianbin.org/api/",
   "security": {
@@ -18,7 +18,13 @@
     "server": "netease",
     "type": "playlist",
     "playlistId": "13870904552",
-    "icon": "♪"
+    "icon": "♪",
+    "apiServers": [
+      "https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r",
+      "https://api.injahow.cn/meting/api?server=:server&type=:type&id=:id&r=:r"
+    ],
+    "apiFallback": true,
+    "apiTimeout": 8000
   },
   "bottomNav": [
     { "id": "play", "name": "框架设定", "icon": "📜" },
