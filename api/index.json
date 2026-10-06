@@ -11,11 +11,12 @@
   "opSearch": {
     "enabled": true,
     "numericOnly": true,
-    "exactMatch": true,
     "cardOnFound": true
   },
   "music": {
     "enabled": true,
+    "server": "netease",
+    "type": "playlist",
     "playlistId": "13870904552",
     "icon": "♪"
   },
@@ -29,6 +30,7 @@
   "sections": {
     "play": {
       "name": "框架设定",
+      "icon": "📜",
       "api": "play.json",
       "perPage": 5,
       "searchable": true,
@@ -40,6 +42,7 @@
     },
     "wan": {
       "name": "『纶音』",
+      "icon": "📢",
       "api": "wan.json",
       "perPage": 5,
       "searchable": true,
@@ -51,6 +54,7 @@
     },
     "api": {
       "name": "༺探险之旅༻",
+      "icon": "🪶",
       "api": "api.json",
       "perPage": 5,
       "searchable": false,
@@ -62,6 +66,7 @@
     },
     "world": {
       "name": "世界观",
+      "icon": "☭",
       "api": "world.json",
       "perPage": 5,
       "searchable": true,
@@ -73,6 +78,7 @@
     },
     "yo": {
       "name": "册籍",
+      "icon": "📖",
       "api": "yo.json",
       "perPage": 5,
       "searchable": true,
