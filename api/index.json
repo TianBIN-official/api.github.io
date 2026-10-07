@@ -20,8 +20,8 @@
     "playlistId": "13870904552",
     "icon": "♪",
     "apiServers": [
-      "https://api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r",
-      "https://api.injahow.cn/meting/api?server=:server&type=:type&id=:id&r=:r"
+      "//api.injahow.cn/meting/api?server=:server&type=:type&id=:id&r=:r",
+      "//api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r"
     ],
     "apiFallback": true,
     "apiTimeout": 8000
@@ -41,7 +41,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "copyLink": false,
+      "copyLink": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "date",
@@ -54,7 +54,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "copyLink": false,
+      "copyLink": true,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
       "sortBy": "date",
@@ -67,7 +67,7 @@
       "perPage": 5,
       "searchable": false,
       "opEnabled": false,
-      "copyLink": false,
+      "copyLink": true,
       "searchFields": ["title"],
       "searchMode": "simple",
       "sortBy": "date",
@@ -80,7 +80,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
-      "copyLink": false,
+      "copyLink": true,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
       "sortBy": "date",
