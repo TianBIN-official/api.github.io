@@ -66,12 +66,12 @@
       "api": "api.json",
       "perPage": 5,
       "searchable": false,
-      "opEnabled": false,
+      "opEnabled": true,
       "copyLink": true,
-      "searchFields": ["title"],
-      "searchMode": "simple",
-      "sortBy": "date",
-      "sortOrder": "desc"
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "asc"
     },
     "world": {
       "name": "世界观",
