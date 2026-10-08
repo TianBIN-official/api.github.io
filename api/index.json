@@ -1,7 +1,7 @@
 {
   "siteName": "天彬TianBIN | 框架设定",
   "homeId": "api",
-  "configApi": "//api.tianbin.org/api/config.json",
+  "configApi": "//api.tianbin.org/api/",
   "apiBase": "//api.tianbin.org/api/",
   "announcementApi": "//api.tianbin.org/index.json",
   "security": {
