@@ -1,24 +1,17 @@
 {
   "siteName": "天彬TianBIN | 框架设定",
   "homeId": "api",
-  "configApi": "//api.tianbin.org/api/",
   "apiBase": "//api.tianbin.org/api/",
-  "announcementApi": "//api.tianbin.org/index.json",
   "security": {
-    "watermarkText": "起点小说《天彬》",
-    "watermarkRotate": -0.5236,
-    "watermarkSpeed": 0.8
+    "watermarkText": "起点小说《天彬》"
   },
   "behavior": {
-    "concurrencyLimit": 6,
-    "defaultUnlockTime": 6,
-    "defaultUnlockRatio": 0.68
+    "concurrencyLimit": 6
   },
   "opSearch": {
     "enabled": true,
     "numericOnly": true,
-    "cardOnFound": true,
-    "respectSortConfig": true
+    "cardOnFound": true
   },
   "music": {
     "enabled": true,
