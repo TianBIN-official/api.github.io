@@ -129,7 +129,7 @@ proxies:
     tls: true
     skip-cert-verify: true
     delay: 2455
-  - name: 罗马尼亚 - Bucharest - 6
+  - name: 罗马尼亚 - 布加勒斯特 - 6
     server: 193.176.84.33
     port: 9002
     type: http
