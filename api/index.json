@@ -21,7 +21,7 @@
   },
   "htmlContainer": {
     "sandbox": "allow-same-origin allow-scripts allow-popups allow-forms",
-    "crossOriginShield": false
+    "crossOriginShield": true
   },
   "music": {
     "enabled": true,
