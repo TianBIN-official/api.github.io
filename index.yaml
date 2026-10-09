@@ -46,7 +46,7 @@ dns:
 # index.yaml ←网络代理文件
 #############################
 proxies:
-  - name: 法国 - Paris - 1
+  - name: 法国 - 巴黎 - 1
     server: 95.170.13.47
     port: 65443
     type: ss
@@ -54,7 +54,30 @@ proxies:
     password: 7eadc6dbe2ae
     udp: true
     delay: 1318
-  - name: 荷兰 - Amsterdam - 1
+  - cipher: aes-256-cfb
+    name: 法国 - 巴黎 - 2
+    password: amazonskr05
+    port: 443
+    server: 15.237.255.137
+    type: ss
+    udp: true
+    delay: 830
+  - name: 荷兰 - 阿姆斯特丹 - 1
+    server: 84.17.47.148
+    port: 9002
+    type: http
+    password: None
+    tls: true
+    skip-cert-verify: true
+    delay: 2208
+  - name: 荷兰 - 阿姆斯特丹 - 2
+    server: 84.17.47.146
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    delay: 1712
+  - name: 荷兰 - 阿姆斯特丹 - 3
     server: 84.17.47.125
     port: 9002
     type: http
@@ -62,7 +85,7 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 2163
-  - name: 荷兰 - Amsterdam - 2
+  - name: 荷兰 - 阿姆斯特丹 - 4
     server: 84.17.47.150
     port: 9002
     type: http
@@ -70,40 +93,43 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 2053
-  - name: 荷兰 - Amsterdam - 3
-    server: 84.17.47.148
+  - name: 罗马尼亚 - 布加勒斯特 - 1
+    server: 193.176.84.17
     port: 9002
     type: http
     tls: true
     skip-cert-verify: true
-    udp: true
-    delay: 2154
-  - name: 荷兰 - Amsterdam - 4
-    server: 84.17.47.148
+    delay: 1800
+  - name: 罗马尼亚 - 布加勒斯特 - 2
+    server: 193.176.84.20
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    delay: 1720
+  - name: 罗马尼亚 - 布加勒斯特 - 3
+    server: 193.176.84.31
     port: 9002
     type: http
     password: None
     tls: true
     skip-cert-verify: true
-    udp: true
-    delay: 2074
-  - name: 荷兰 - Amsterdam - 5
-    server: 84.17.47.146
+    delay: 1324
+  - name: 罗马尼亚 - 布加勒斯特 - 4
+    server: 193.176.84.27
     port: 9002
     type: http
     tls: true
     skip-cert-verify: true
-    udp: true
-    delay: 2112
-  - name: 加拿大 - Montréal - 1
-    server: 3.97.16.160
-    type: ss
-    country: 🇨🇦CA
-    port: 443
-    password: amazonskr05
-    cipher: aes-256-cfb
-    delay: 592
-  - name: 罗马尼亚 - Bucharest - 1
+    delay: 2161
+  - name: 罗马尼亚 - 布加勒斯特 - 5
+    server: 193.176.84.39
+    port: 9002
+    type: http
+    tls: true
+    skip-cert-verify: true
+    delay: 2455
+  - name: 罗马尼亚 - Bucharest - 6
     server: 193.176.84.33
     port: 9002
     type: http
@@ -111,23 +137,7 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 2590
-  - name: 罗马尼亚 - Bucharest - 2
-    server: 193.176.84.32
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1116
-  - name: 罗马尼亚 - Bucharest - 3
-    server: 193.176.84.39
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1848
-  - name: 罗马尼亚 - Bucharest - 4
+  - name: 罗马尼亚 - 布加勒斯特 - 7
     server: 193.176.84.30
     port: 9002
     type: http
@@ -135,7 +145,7 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 2677
-  - name: 罗马尼亚 - Bucharest - 5
+  - name: 罗马尼亚 - 布加勒斯特 - 8
     server: 193.176.84.35
     port: 9002
     type: http
@@ -143,15 +153,7 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 1049
-  - name: 罗马尼亚 - Bucharest - 6
-    server: 193.176.84.17
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1749
-  - name: 罗马尼亚 - Bucharest - 7
+  - name: 罗马尼亚 - 布加勒斯特 - 9
     server: 193.176.84.24
     port: 9002
     type: http
@@ -159,7 +161,7 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 2431
-  - name: 罗马尼亚 - Bucharest - 8
+  - name: 罗马尼亚 - 布加勒斯特 - 10
     server: 193.176.84.25
     port: 9002
     type: http
@@ -167,16 +169,7 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 1753
-  - name: 罗马尼亚 - Bucharest - 9
-    server: 193.176.84.31
-    port: 9002
-    type: http
-    password: None
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 2568
-  - name: 罗马尼亚 - Bucharest - 10
+  - name: 罗马尼亚 - 布加勒斯特 - 11
     server: 193.176.84.23
     port: 9002
     type: http
@@ -185,14 +178,6 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 1758
-  - name: 罗马尼亚 - Bucharest - 11
-    server: 193.176.84.27
-    port: 9002
-    type: http
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1234
   - name: 马来西亚 - Cyberjaya - 1
     server: 118.107.222.231
     port: 65443
@@ -201,29 +186,23 @@ proxies:
     password: 7eadc6dbe2ae
     udp: true
     delay: 1048
-  - name: 美国 - Buffalo - 1
-    server: v4.hdacd.com
-    type: vmess
-    country: 🇨🇳CN
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v4.hdacd.com
-    http-opts: {}
-    h2-opts: {}
+   - name: 美国 - 洛杉矶 - 1
+    server: 138.199.35.216
+    port: 9002
+    type: http
+    username: 'null'
+    password: 'null'
+    tls: true
     skip-cert-verify: true
-    delay: 1031
-  - name: 美国 - Fremont - 1
-    server: voteshirleysew.club
+    delay: 2937
+  - name: 美国 - 洛杉矶 - 2
+    server: 38.28.193.188
     port: 443
     type: http
     tls: true
     skip-cert-verify: true
-    udp: true
-    delay: 900
-  - name: 美国 - Los Angeles - 1
+    delay: 1113
+  - name: 美国 - 洛杉矶 - 3
     server: 121.46.230.233
     port: 65443
     type: ss
@@ -231,7 +210,7 @@ proxies:
     password: 7eadc6dbe2ae
     udp: true
     delay: 353
-  - name: 美国 - Los Angeles - 2
+  - name: 美国 - 洛杉矶 - 4
     server: www.361371.xyz
     type: vmess
     country: 🇺🇸US
@@ -250,24 +229,49 @@ proxies:
       headers:
         HOST: www.361371.xyz
     delay: 1797
-  - name: 美国 - Los Angeles - 3
-    server: 138.199.35.216
-    port: 9002
-    type: http
-    username: 'null'
-    password: 'null'
-    tls: true
-    skip-cert-verify: true
-    udp: true
-    delay: 1699
-  - name: 美国 - Los Angeles - 4
-    server: 38.28.193.188
+  - name: 美国 - 聖荷西 - 1
+    server: fan.365747.xyz
     port: 443
     type: http
     tls: true
     skip-cert-verify: true
+    delay: 1192
+  - name: 美国 - 聖荷西 - 2
+    server: voteshirleysew.club
+    port: 443
+    type: http
+    tls: true
+    delay: 1979
+  - cipher: aes-256-cfb
+    name: 美国 - 弗吉尼亚州 - 1
+    password: amazonskr05
+    port: 443
+    server: 98.89.22.134
+    type: ss
     udp: true
-    delay: 857
+    delay: 701
+  - cipher: aes-256-cfb
+    name: 美国 - 弗吉尼亚州 - 2
+    password: amazonskr05
+    port: 443
+    server: 98.88.75.157
+    type: ss
+    udp: true
+    delay: 1094
+  - name: 美国 - Buffalo - 1
+    server: v4.hdacd.com
+    type: vmess
+    country: 🇨🇳CN
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v4.hdacd.com
+    http-opts: {}
+    h2-opts: {}
+    skip-cert-verify: true
+    delay: 1031
   - name: 中国 - Hefei - 1
     server: 112.132.215.108
     type: vmess
@@ -282,6 +286,14 @@ proxies:
     h2-opts: {}
     skip-cert-verify: true
     delay: 150
+  - name: 新加坡 - 新加坡 - 1
+    network: ws
+    port: 80
+    server: 5.223.19.211
+    type: vless
+    udp: true
+    uuid: 4b8a0930-1c36-4efe-b4fe-21f9ad97905c
+    delay: 1214
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
@@ -291,37 +303,39 @@ proxy-groups:
   - name: 天彬TianBIN.org
     type: select
     proxies:
-      - 法国 - Paris - 1
-      - 荷兰 - Amsterdam - 1
-      - 荷兰 - Amsterdam - 2
-      - 荷兰 - Amsterdam - 3
-      - 荷兰 - Amsterdam - 4
-      - 荷兰 - Amsterdam - 5
-      - 加拿大 - Montréal - 1
-      - 罗马尼亚 - Bucharest - 1
-      - 罗马尼亚 - Bucharest - 2
-      - 罗马尼亚 - Bucharest - 3
-      - 罗马尼亚 - Bucharest - 4
-      - 罗马尼亚 - Bucharest - 5
-      - 罗马尼亚 - Bucharest - 6
-      - 罗马尼亚 - Bucharest - 7
-      - 罗马尼亚 - Bucharest - 8
-      - 罗马尼亚 - Bucharest - 9
-      - 罗马尼亚 - Bucharest - 10
-      - 罗马尼亚 - Bucharest - 11
+      - 法国 - 巴黎 - 1
+      - 法国 - 巴黎 - 2
+      - 荷兰 - 阿姆斯特丹 - 1
+      - 荷兰 - 阿姆斯特丹 - 2
+      - 荷兰 - 阿姆斯特丹 - 3
+      - 荷兰 - 阿姆斯特丹 - 4
+      - 罗马尼亚 - 布加勒斯特 - 1
+      - 罗马尼亚 - 布加勒斯特 - 2
+      - 罗马尼亚 - 布加勒斯特 - 4
+      - 罗马尼亚 - 布加勒斯特 - 5
+      - 罗马尼亚 - 布加勒斯特 - 6
+      - 罗马尼亚 - 布加勒斯特 - 7
+      - 罗马尼亚 - 布加勒斯特 - 8
+      - 罗马尼亚 - 布加勒斯特 - 9
+      - 罗马尼亚 - 布加勒斯特 - 10
+      - 罗马尼亚 - 布加勒斯特 - 11
       - 马来西亚 - Cyberjaya - 1
+      - 美国 - 洛杉矶 - 1
+      - 美国 - 洛杉矶 - 2
+      - 美国 - 洛杉矶 - 3
+      - 美国 - 洛杉矶 - 4
+      - 美国 - 聖荷西 - 1
+      - 美国 - 聖荷西 - 2
+      - 美国 - 弗吉尼亚州 - 1
+      - 美国 - 弗吉尼亚州 - 2
       - 美国 - Buffalo - 1
-      - 美国 - Fremont - 1
-      - 美国 - Los Angeles - 1
-      - 美国 - Los Angeles - 2
-      - 美国 - Los Angeles - 3
-      - 美国 - Los Angeles - 4
       - 网络代理
   - name: 网络代理
     type: select
     proxies:
       - DIRECT
       - 中国 - Hefei - 1
+      - 新加坡 - 新加坡 - 1
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
