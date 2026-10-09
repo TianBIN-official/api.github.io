@@ -2,6 +2,7 @@
   "siteName": "天彬TianBIN | 框架设定",
   "homeId": "api",
   "apiBase": "//api.tianbin.org/api/",
+  "announcementUrl": "//api.tianbin.org/index.json",
   "security": {
     "watermarkText": "起点小说《天彬》"
   },
@@ -10,8 +11,17 @@
   },
   "opSearch": {
     "enabled": true,
+    "defaultEnabled": false,
     "numericOnly": true,
     "cardOnFound": true
+  },
+  "routing": {
+    "enabled": true,
+    "defaultEnabled": true
+  },
+  "htmlContainer": {
+    "sandbox": "allow-same-origin allow-scripts allow-popups allow-forms",
+    "crossOriginShield": false
   },
   "music": {
     "enabled": true,
@@ -41,6 +51,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
+      "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
@@ -54,6 +65,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
+      "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
@@ -67,6 +79,7 @@
       "perPage": 5,
       "searchable": false,
       "opEnabled": true,
+      "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
@@ -80,6 +93,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": false,
+      "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content"],
       "searchMode": "simple",
@@ -93,6 +107,7 @@
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
+      "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
