@@ -186,7 +186,7 @@ proxies:
     password: 7eadc6dbe2ae
     udp: true
     delay: 1048
-   - name: 美国 - 洛杉矶 - 1
+  - name: 美国 - 洛杉矶 - 1
     server: 138.199.35.216
     port: 9002
     type: http
