@@ -46,7 +46,15 @@ dns:
 # index.yaml ←网络代理文件
 #############################
 proxies:
-  - name: 法国 - 巴黎 - 1
+  - cipher: aes-256-cfb
+    name: 法国 - 巴黎 - 1
+    password: amazonskr05
+    port: 443
+    server: 15.237.255.137
+    type: ss
+    udp: true
+    delay: 830
+  - name: 法国 - 巴黎 - 2
     server: 95.170.13.47
     port: 65443
     type: ss
@@ -54,14 +62,6 @@ proxies:
     password: 7eadc6dbe2ae
     udp: true
     delay: 1318
-  - cipher: aes-256-cfb
-    name: 法国 - 巴黎 - 2
-    password: amazonskr05
-    port: 443
-    server: 15.237.255.137
-    type: ss
-    udp: true
-    delay: 830
   - name: 荷兰 - 阿姆斯特丹 - 1
     server: 84.17.47.148
     port: 9002
