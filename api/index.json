@@ -49,14 +49,14 @@
       "icon": "📜",
       "api": "play.json",
       "perPage": 5,
-      "searchable": true,
-      "opEnabled": false,
+      "searchable": false,
+      "opEnabled": true,
       "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
-      "sortBy": "date",
-      "sortOrder": "desc"
+      "sortBy": "id",
+      "sortOrder": "asc"
     },
     "wan": {
       "name": "『纶音』",
@@ -91,14 +91,14 @@
       "icon": "☭",
       "api": "world.json",
       "perPage": 5,
-      "searchable": true,
-      "opEnabled": false,
+      "searchable": false,
+      "opEnabled": true,
       "routeEnabled": true,
       "copyLink": true,
-      "searchFields": ["title", "content"],
-      "searchMode": "simple",
-      "sortBy": "date",
-      "sortOrder": "desc"
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "asc"
     },
     "yo": {
       "name": "册籍",
