@@ -77,7 +77,7 @@
       "icon": "🪶",
       "api": "api.json",
       "perPage": 5,
-      "searchable": false,
+      "searchable": true,
       "opEnabled": true,
       "routeEnabled": true,
       "copyLink": true,
