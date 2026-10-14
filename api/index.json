@@ -50,13 +50,13 @@
       "api": "play.json",
       "perPage": 5,
       "searchable": true,
-      "opEnabled": false,
+      "opEnabled": true,
       "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
-      "sortOrder": "asc"
+      "sortOrder": "desc"
     },
     "wan": {
       "name": "『纶音』",
@@ -64,12 +64,12 @@
       "api": "wan.json",
       "perPage": 5,
       "searchable": true,
-      "opEnabled": false,
+      "opEnabled": true,
       "routeEnabled": true,
       "copyLink": true,
-      "searchFields": ["title", "content"],
-      "searchMode": "simple",
-      "sortBy": "date",
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
       "sortOrder": "desc"
     },
     "api": {
@@ -92,13 +92,13 @@
       "api": "world.json",
       "perPage": 5,
       "searchable": true,
-      "opEnabled": false,
+      "opEnabled": true,
       "routeEnabled": true,
       "copyLink": true,
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
-      "sortOrder": "asc"
+      "sortOrder": "desc"
     },
     "yo": {
       "name": "册籍",
