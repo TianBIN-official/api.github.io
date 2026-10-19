@@ -56,7 +56,7 @@
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
-      "sortOrder": "desc"
+      "sortOrder": "asc"
     },
     "si": {
       "name": "琴瑟和鸣",
@@ -70,7 +70,7 @@
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
-      "sortOrder": "desc"
+      "sortOrder": "asc"
     },
     "rui": {
       "name": "相濡以沫",
@@ -84,7 +84,7 @@
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
-      "sortOrder": "desc"
+      "sortOrder": "asc"
     },
     "yi": {
       "name": "白首不离",
@@ -98,7 +98,7 @@
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
-      "sortOrder": "desc"
+      "sortOrder": "asc"
     },
     "fei": {
       "name": "白头偕老",
@@ -112,7 +112,7 @@
       "searchFields": ["title", "content", "author"],
       "searchMode": "weighted",
       "sortBy": "id",
-      "sortOrder": "desc"
+      "sortOrder": "asc"
     }
   }
 }
