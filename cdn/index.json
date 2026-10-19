@@ -1,6 +1,6 @@
 {
   "siteName": "苏天彬 | 曜日记",
-  "homeId": "api",
+  "homeId": "chu",
   "apiBase": "//api.tianbin.org/cdn/",
   "announcementUrl": "//api.tianbin.org/index.json",
   "security": {
