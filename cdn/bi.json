@@ -1,9 +1,0 @@
-{
-  "siteName": "资源站、随笔、日记",
-  "favicon": "https://wentianwan.com/favicon.ico",
-  "sections": [
-    { "id": "bi_choiceblossomsfromthegroveofpens", "name": "岁余闲笔", "icon": "🖋️" },
-    { "id": "bi_api", "name": "资源站", "icon": "🖊️" },
-    { "id": "bi_2026", "name": "2026", "icon": "🪶" }
-  ]
-}
