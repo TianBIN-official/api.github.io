@@ -37,16 +37,16 @@
     "apiTimeout": 8000
   },
   "bottomNav": [
-    { "id": "chu", "name": "执手同心", "icon": "📜" },
-    { "id": "si", "name": "琴瑟和鸣", "icon": "📢" },
-    { "id": "rui", "name": "相濡以沫", "icon": "🪶" },
-    { "id": "yi", "name": "白首不离", "icon": "☭", "badge": true },
-    { "id": "fei", "name": "白头偕老", "icon": "📖", "badge": true }
+    { "id": "chu", "name": "执手同心", "icon": "❤️" },
+    { "id": "si", "name": "琴瑟和鸣", "icon": "✉️" },
+    { "id": "rui", "name": "相濡以沫", "icon": "💌" },
+    { "id": "yi", "name": "白首不离", "icon": "📗", "badge": true },
+    { "id": "fei", "name": "白头偕老", "icon": "🪶", "badge": true }
   ],
   "sections": {
     "chu": {
       "name": "执手同心",
-      "icon": "📜",
+      "icon": "❤️",
       "api": "chu.json",
       "perPage": 5,
       "searchable": true,
@@ -60,7 +60,7 @@
     },
     "si": {
       "name": "琴瑟和鸣",
-      "icon": "📢",
+      "icon": "✉️",
       "api": "si.json",
       "perPage": 5,
       "searchable": true,
@@ -74,7 +74,7 @@
     },
     "rui": {
       "name": "相濡以沫",
-      "icon": "🪶",
+      "icon": "💌",
       "api": "rui.json",
       "perPage": 5,
       "searchable": true,
@@ -88,7 +88,7 @@
     },
     "yi": {
       "name": "白首不离",
-      "icon": "☭",
+      "icon": "📗",
       "api": "yi.json",
       "perPage": 5,
       "searchable": true,
@@ -102,7 +102,7 @@
     },
     "fei": {
       "name": "白头偕老",
-      "icon": "📖",
+      "icon": "🪶",
       "api": "fei.json",
       "perPage": 5,
       "searchable": true,
