@@ -1,0 +1,118 @@
+{
+  "siteName": "苏天彬 | 周记",
+  "homeId": "api",
+  "apiBase": "//api.tianbin.org/api/",
+  "announcementUrl": "//api.tianbin.org/index.json",
+  "security": {
+    "watermarkText": "起点小说《天彬》"
+  },
+  "behavior": {
+    "concurrencyLimit": 6
+  },
+  "opSearch": {
+    "enabled": true,
+    "defaultEnabled": false,
+    "numericOnly": true,
+    "cardOnFound": true
+  },
+  "routing": {
+    "enabled": true,
+    "defaultEnabled": true
+  },
+  "htmlContainer": {
+    "sandbox": "allow-same-origin allow-scripts allow-popups allow-forms",
+    "crossOriginShield": "auto"
+  },
+  "music": {
+    "enabled": true,
+    "server": "netease",
+    "type": "playlist",
+    "playlistId": "13870904552",
+    "icon": "♪",
+    "apiServers": [
+      "//api.injahow.cn/meting/api?server=:server&type=:type&id=:id&r=:r",
+      "//api.i-meto.com/meting/api?server=:server&type=:type&id=:id&r=:r"
+    ],
+    "apiFallback": true,
+    "apiTimeout": 8000
+  },
+  "bottomNav": [
+    { "id": "play", "name": "框架设定", "icon": "📜" },
+    { "id": "wan", "name": "『纶音』", "icon": "📢" },
+    { "id": "api", "name": "༺探险之旅༻", "icon": "🪶" },
+    { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
+    { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
+  ],
+  "sections": {
+    "play": {
+      "name": "框架设定",
+      "icon": "📜",
+      "api": "play.json",
+      "perPage": 5,
+      "searchable": true,
+      "opEnabled": true,
+      "routeEnabled": true,
+      "copyLink": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "desc"
+    },
+    "wan": {
+      "name": "『纶音』",
+      "icon": "📢",
+      "api": "wan.json",
+      "perPage": 5,
+      "searchable": true,
+      "opEnabled": true,
+      "routeEnabled": true,
+      "copyLink": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "desc"
+    },
+    "api": {
+      "name": "༺探险之旅༻",
+      "icon": "🪶",
+      "api": "api.json",
+      "perPage": 5,
+      "searchable": true,
+      "opEnabled": true,
+      "routeEnabled": true,
+      "copyLink": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "asc"
+    },
+    "world": {
+      "name": "世界观",
+      "icon": "☭",
+      "api": "world.json",
+      "perPage": 5,
+      "searchable": true,
+      "opEnabled": true,
+      "routeEnabled": true,
+      "copyLink": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "desc"
+    },
+    "yo": {
+      "name": "册籍",
+      "icon": "📖",
+      "api": "yo.json",
+      "perPage": 5,
+      "searchable": true,
+      "opEnabled": true,
+      "routeEnabled": true,
+      "copyLink": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "desc"
+    }
+  }
+}
