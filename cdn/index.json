@@ -7,7 +7,7 @@
     "watermarkText": "起点小说《天彬》"
   },
   "behavior": {
-    "concurrencyLimit": 6
+    "concurrencyLimit": 13
   },
   "opSearch": {
     "enabled": true,
