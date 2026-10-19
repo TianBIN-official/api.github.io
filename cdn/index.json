@@ -1,7 +1,7 @@
 {
-  "siteName": "苏天彬 | 周记",
+  "siteName": "苏天彬 | 曜日记",
   "homeId": "api",
-  "apiBase": "//api.tianbin.org/api/",
+  "apiBase": "//api.tianbin.org/cdn/",
   "announcementUrl": "//api.tianbin.org/index.json",
   "security": {
     "watermarkText": "起点小说《天彬》"
@@ -37,17 +37,17 @@
     "apiTimeout": 8000
   },
   "bottomNav": [
-    { "id": "play", "name": "框架设定", "icon": "📜" },
-    { "id": "wan", "name": "『纶音』", "icon": "📢" },
-    { "id": "api", "name": "༺探险之旅༻", "icon": "🪶" },
-    { "id": "world", "name": "世界观", "icon": "☭", "badge": true },
-    { "id": "yo", "name": "册籍", "icon": "📖", "badge": true }
+    { "id": "chu", "name": "执手同心", "icon": "📜" },
+    { "id": "si", "name": "琴瑟和鸣", "icon": "📢" },
+    { "id": "rui", "name": "相濡以沫", "icon": "🪶" },
+    { "id": "yi", "name": "白首不离", "icon": "☭", "badge": true },
+    { "id": "fei", "name": "白头偕老", "icon": "📖", "badge": true }
   ],
   "sections": {
-    "play": {
-      "name": "框架设定",
+    "chu": {
+      "name": "执手同心",
       "icon": "📜",
-      "api": "play.json",
+      "api": "chu.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
@@ -58,10 +58,10 @@
       "sortBy": "id",
       "sortOrder": "desc"
     },
-    "wan": {
-      "name": "『纶音』",
+    "si": {
+      "name": "琴瑟和鸣",
       "icon": "📢",
-      "api": "wan.json",
+      "api": "si.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
@@ -72,24 +72,10 @@
       "sortBy": "id",
       "sortOrder": "desc"
     },
-    "api": {
-      "name": "༺探险之旅༻",
+    "rui": {
+      "name": "相濡以沫",
       "icon": "🪶",
-      "api": "api.json",
-      "perPage": 5,
-      "searchable": true,
-      "opEnabled": true,
-      "routeEnabled": true,
-      "copyLink": true,
-      "searchFields": ["title", "content", "author"],
-      "searchMode": "weighted",
-      "sortBy": "id",
-      "sortOrder": "asc"
-    },
-    "world": {
-      "name": "世界观",
-      "icon": "☭",
-      "api": "world.json",
+      "api": "rui.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
@@ -100,10 +86,24 @@
       "sortBy": "id",
       "sortOrder": "desc"
     },
-    "yo": {
-      "name": "册籍",
+    "yi": {
+      "name": "白首不离",
+      "icon": "☭",
+      "api": "yi.json",
+      "perPage": 5,
+      "searchable": true,
+      "opEnabled": true,
+      "routeEnabled": true,
+      "copyLink": true,
+      "searchFields": ["title", "content", "author"],
+      "searchMode": "weighted",
+      "sortBy": "id",
+      "sortOrder": "desc"
+    },
+    "fei": {
+      "name": "白头偕老",
       "icon": "📖",
-      "api": "yo.json",
+      "api": "fei.json",
       "perPage": 5,
       "searchable": true,
       "opEnabled": true,
