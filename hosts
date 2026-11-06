@@ -16,7 +16,7 @@
 140.82.113.21                 collector.github.com
 185.199.109.133               desktop.githubusercontent.com
 185.199.109.133               favicons.githubusercontent.com
-78.16.49.15                   gist.github.com  # Timeout
+78.16.49.15                   gist.github.com
 16.15.252.183                 github-cloud.s3.amazonaws.com
 16.15.237.200                 github-com.s3.amazonaws.com
 16.15.230.18                  github-production-release-asset-2e65be.s3.amazonaws.com
@@ -26,7 +26,7 @@
 20.205.243.166                github.com
 140.82.112.17                 github.community
 185.199.109.215               github.githubassets.com
-31.13.96.208                  github.global.ssl.fastly.net  # Timeout
+31.13.96.208                  github.global.ssl.fastly.net
 185.199.111.153               github.io
 185.199.109.133               github.map.fastly.net
 185.199.111.153               githubstatus.com
