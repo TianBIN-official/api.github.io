@@ -33,7 +33,7 @@ dns:
   default-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
   nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
   proxy-server-nameserver: [223.5.5.5, 119.29.29.29, 114.114.114.114]
-  fallback: [1.1.1.1, 8.8.8.8]
+  fallback: [8.8.8.8, 1.1.1.1]
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -46,22 +46,6 @@ dns:
 # index.yaml ←网络代理文件
 #############################
 proxies:
-  - cipher: aes-256-cfb
-    name: 法国 - 巴黎 - 1
-    password: amazonskr05
-    port: 443
-    server: 15.237.255.137
-    type: ss
-    udp: true
-    delay: 830
-  - name: 法国 - 巴黎 - 2
-    server: 95.170.13.47
-    port: 65443
-    type: ss
-    cipher: aes-256-cfb
-    password: 7eadc6dbe2ae
-    udp: true
-    delay: 1318
   - name: 荷兰 - 阿姆斯特丹 - 1
     server: 84.17.47.148
     port: 9002
@@ -178,14 +162,6 @@ proxies:
     skip-cert-verify: true
     udp: true
     delay: 1758
-  - name: 马来西亚 - Cyberjaya - 1
-    server: 118.107.222.231
-    port: 65443
-    type: ss
-    cipher: aes-256-cfb
-    password: 7eadc6dbe2ae
-    udp: true
-    delay: 1048
   - name: 美国 - 洛杉矶 - 1
     server: 138.199.35.216
     port: 9002
@@ -202,33 +178,6 @@ proxies:
     tls: true
     skip-cert-verify: true
     delay: 1113
-  - name: 美国 - 洛杉矶 - 3
-    server: 121.46.230.233
-    port: 65443
-    type: ss
-    cipher: aes-256-cfb
-    password: 7eadc6dbe2ae
-    udp: true
-    delay: 353
-  - name: 美国 - 洛杉矶 - 4
-    server: www.361371.xyz
-    type: vmess
-    country: 🇺🇸US
-    port: 443
-    uuid: da77c564-3815-468c-8867-0aea0b397027
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: www.361371.xyz
-    http-opts: {}
-    h2-opts: {}
-    tls: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /ws-6rm27y
-      headers:
-        HOST: www.361371.xyz
-    delay: 1797
   - name: 美国 - 聖荷西 - 1
     server: fan.365747.xyz
     port: 443
@@ -243,57 +192,6 @@ proxies:
     tls: true
     delay: 1979
   - cipher: aes-256-cfb
-    name: 美国 - 弗吉尼亚州 - 1
-    password: amazonskr05
-    port: 443
-    server: 98.89.22.134
-    type: ss
-    udp: true
-    delay: 701
-  - cipher: aes-256-cfb
-    name: 美国 - 弗吉尼亚州 - 2
-    password: amazonskr05
-    port: 443
-    server: 98.88.75.157
-    type: ss
-    udp: true
-    delay: 1094
-  - name: 美国 - Buffalo - 1
-    server: v4.hdacd.com
-    type: vmess
-    country: 🇨🇳CN
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v4.hdacd.com
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 1031
-  - name: 中国 - Hefei - 1
-    server: 112.132.215.108
-    type: vmess
-    country: 🇨🇳CN
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    servername: 112.132.215.108
-    http-opts: {}
-    h2-opts: {}
-    skip-cert-verify: true
-    delay: 150
-  - name: 新加坡 - 新加坡 - 1
-    network: ws
-    port: 80
-    server: 5.223.19.211
-    type: vless
-    udp: true
-    uuid: 4b8a0930-1c36-4efe-b4fe-21f9ad97905c
-    delay: 1214
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
@@ -303,14 +201,13 @@ proxy-groups:
   - name: 天彬TianBIN.org
     type: select
     proxies:
-      - 法国 - 巴黎 - 1
-      - 法国 - 巴黎 - 2
       - 荷兰 - 阿姆斯特丹 - 1
       - 荷兰 - 阿姆斯特丹 - 2
       - 荷兰 - 阿姆斯特丹 - 3
       - 荷兰 - 阿姆斯特丹 - 4
       - 罗马尼亚 - 布加勒斯特 - 1
       - 罗马尼亚 - 布加勒斯特 - 2
+      - 罗马尼亚 - 布加勒斯特 - 3
       - 罗马尼亚 - 布加勒斯特 - 4
       - 罗马尼亚 - 布加勒斯特 - 5
       - 罗马尼亚 - 布加勒斯特 - 6
@@ -319,23 +216,15 @@ proxy-groups:
       - 罗马尼亚 - 布加勒斯特 - 9
       - 罗马尼亚 - 布加勒斯特 - 10
       - 罗马尼亚 - 布加勒斯特 - 11
-      - 马来西亚 - Cyberjaya - 1
       - 美国 - 洛杉矶 - 1
       - 美国 - 洛杉矶 - 2
-      - 美国 - 洛杉矶 - 3
-      - 美国 - 洛杉矶 - 4
       - 美国 - 聖荷西 - 1
       - 美国 - 聖荷西 - 2
-      - 美国 - 弗吉尼亚州 - 1
-      - 美国 - 弗吉尼亚州 - 2
-      - 美国 - Buffalo - 1
       - 网络代理
   - name: 网络代理
     type: select
     proxies:
       - DIRECT
-      - 中国 - Hefei - 1
-      - 新加坡 - 新加坡 - 1
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
