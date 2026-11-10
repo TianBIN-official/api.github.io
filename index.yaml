@@ -191,7 +191,6 @@ proxies:
     type: http
     tls: true
     delay: 1979
-  - cipher: aes-256-cfb
 #############################
 #   天彬TianBIN.org网络代理
 # https://api.tianbin.org/
